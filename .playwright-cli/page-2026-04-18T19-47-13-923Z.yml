@@ -1,0 +1,108 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "New Trade" [ref=e20] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e21]
+        - text: New Trade
+    - paragraph [ref=e24]: IDX Trading Journal v1.0
+  - main [ref=e25]:
+    - generic [ref=e135]:
+      - heading "Calendar" [level=1] [ref=e136]
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - button "Previous month" [ref=e140] [cursor=pointer]:
+              - img [ref=e141]
+            - heading "Juni 2026" [level=2] [ref=e893]
+            - button "Next month" [active] [ref=e144] [cursor=pointer]:
+              - img [ref=e145]
+          - button "Hari Ini" [ref=e147] [cursor=pointer]
+        - generic [ref=e148]:
+          - generic [ref=e149]: Sen
+          - generic [ref=e150]: Sel
+          - generic [ref=e151]: Rab
+          - generic [ref=e152]: Kam
+          - generic [ref=e153]: Jum
+          - generic [ref=e154]: Sab
+          - generic [ref=e155]: Min
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic "🏖️ Hari Lahir Pancasila" [ref=e894]:
+              - generic [ref=e896]: "1"
+              - generic [ref=e899]: Hari Lahir Pancasila
+            - generic [ref=e902]: "2"
+            - generic [ref=e905]: "3"
+            - generic [ref=e908]: "4"
+            - generic [ref=e911]: "5"
+            - generic [ref=e914]: "6"
+            - generic [ref=e917]: "7"
+          - generic [ref=e185]:
+            - generic [ref=e920]: "8"
+            - generic [ref=e923]: "9"
+            - generic [ref=e926]: "10"
+            - generic [ref=e929]: "11"
+            - generic [ref=e932]: "12"
+            - generic [ref=e935]: "13"
+            - generic [ref=e938]: "14"
+          - generic [ref=e216]:
+            - generic [ref=e941]: "15"
+            - generic "🏖️ Tahun Baru Islam" [ref=e942]:
+              - generic [ref=e944]: "16"
+              - generic [ref=e947]: Tahun Baru Islam
+            - generic [ref=e950]: "17"
+            - generic [ref=e953]: "18"
+            - generic [ref=e956]: "19"
+            - generic [ref=e959]: "20"
+            - generic [ref=e962]: "21"
+          - generic [ref=e241]:
+            - generic [ref=e965]: "22"
+            - generic [ref=e968]: "23"
+            - generic [ref=e971]: "24"
+            - generic [ref=e974]: "25"
+            - generic [ref=e977]: "26"
+            - generic [ref=e980]: "27"
+            - generic [ref=e983]: "28"
+          - generic [ref=e263]:
+            - generic [ref=e986]: "29"
+            - generic [ref=e989]: "30"
+            - generic [ref=e992]: "1"
+            - generic [ref=e995]: "2"
+            - generic [ref=e998]: "3"
+            - generic [ref=e1001]: "4"
+            - generic [ref=e1004]: "5"
+          - generic [ref=e285]:
+            - generic [ref=e1007]: "6"
+            - generic [ref=e1010]: "7"
+            - generic [ref=e1013]: "8"
+            - generic [ref=e1016]: "9"
+            - generic [ref=e1019]: "10"
+            - generic [ref=e1022]: "11"
+            - generic [ref=e1025]: "12"
+        - generic [ref=e308]:
+          - generic [ref=e309]:
+            - generic [ref=e310]: "Monthly P/L: Rp 0"
+            - generic [ref=e311]: "Trading Days: 0"
+            - generic [ref=e312]: "Trades: 0"
+            - generic [ref=e313]:
+              - text: "Win Rate:"
+              - generic [ref=e314]: 0.0%
+          - generic [ref=e315]:
+            - generic [ref=e316]: Profit
+            - generic [ref=e318]: Loss
+            - generic [ref=e320]: Holiday

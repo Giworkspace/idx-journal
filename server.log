@@ -1,0 +1,4 @@
+> vite --port 3000
+  VITE v5.4.21  ready in 278 ms
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose

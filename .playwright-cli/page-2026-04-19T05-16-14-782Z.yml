@@ -1,0 +1,274 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "Goals" [ref=e20] [cursor=pointer]:
+        - /url: /goals
+        - img [ref=e21]
+        - text: Goals
+      - link "New Trade" [ref=e25] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e26]
+        - text: New Trade
+    - paragraph [ref=e29]: IDX Trading Journal v1.0
+  - main [ref=e30]:
+    - generic [ref=e728]:
+      - generic [ref=e729]:
+        - heading "Trade Log" [level=1] [ref=e730]
+        - link "+ Add Trade" [ref=e731] [cursor=pointer]:
+          - /url: /trades/new
+          - button "+ Add Trade" [ref=e732]
+      - generic [ref=e733]:
+        - generic [ref=e734]:
+          - textbox "Search ticker..." [ref=e737]
+          - generic [ref=e739]:
+            - generic [ref=e740]: From
+            - textbox "From" [ref=e741]
+          - generic [ref=e743]:
+            - generic [ref=e744]: To
+            - textbox "To" [ref=e745]
+          - generic [ref=e747]:
+            - generic [ref=e748]: Status
+            - combobox "Status" [ref=e749]:
+              - option "All Status" [selected]
+              - option "Open"
+              - option "Closed"
+          - generic [ref=e751]:
+            - generic [ref=e752]: Strategy
+            - combobox "Strategy" [ref=e753]:
+              - option "All" [selected]
+              - option "Breakout"
+              - option "Support/Resistance"
+              - option "Moving Average"
+              - option "Trend Following"
+              - option "Scalping"
+              - option "Swing Trade"
+          - button "Clear" [active] [ref=e755] [cursor=pointer]
+        - table [ref=e757]:
+          - rowgroup [ref=e758]:
+            - row "Entry/Exit ▼ Ticker Status Lots Entry Exit Fees Net P/L Tags Actions" [ref=e759]:
+              - columnheader "Entry/Exit ▼" [ref=e760] [cursor=pointer]
+              - columnheader "Ticker" [ref=e761] [cursor=pointer]
+              - columnheader "Status" [ref=e762] [cursor=pointer]
+              - columnheader "Lots" [ref=e763] [cursor=pointer]
+              - columnheader "Entry" [ref=e764]
+              - columnheader "Exit" [ref=e765]
+              - columnheader "Fees" [ref=e766]
+              - columnheader "Net P/L" [ref=e767] [cursor=pointer]
+              - columnheader "Tags" [ref=e768]
+              - columnheader "Actions" [ref=e769]
+          - rowgroup [ref=e770]:
+            - row "16/04/2026 GOTO Open 3 Rp 70 - Rp 34,65 Rp 0 Trend Following Confident" [ref=e1215]:
+              - cell "16/04/2026" [ref=e1216]
+              - cell "GOTO" [ref=e1217]
+              - cell "Open" [ref=e1218]:
+                - generic [ref=e1219]: Open
+              - cell "3" [ref=e1220]
+              - cell "Rp 70" [ref=e1221]
+              - cell "-" [ref=e1222]
+              - cell "Rp 34,65" [ref=e1223]
+              - cell "Rp 0" [ref=e1224]
+              - cell "Trend Following Confident" [ref=e1225]:
+                - generic [ref=e1226]:
+                  - generic [ref=e1227]: Trend Following
+                  - generic [ref=e1228]: Confident
+              - cell [ref=e1229]:
+                - generic [ref=e1230]:
+                  - button "Edit" [ref=e1231] [cursor=pointer]:
+                    - img [ref=e1232]
+                  - button "Delete" [ref=e1234] [cursor=pointer]:
+                    - img [ref=e1235]
+            - row "13/04/2026 ICBP Open 7 Rp 10.500 - Rp 12.127,5 Rp 0 Moving Average Patient" [ref=e1237]:
+              - cell "13/04/2026" [ref=e1238]
+              - cell "ICBP" [ref=e1239]
+              - cell "Open" [ref=e1240]:
+                - generic [ref=e1241]: Open
+              - cell "7" [ref=e1242]
+              - cell "Rp 10.500" [ref=e1243]
+              - cell "-" [ref=e1244]
+              - cell "Rp 12.127,5" [ref=e1245]
+              - cell "Rp 0" [ref=e1246]
+              - cell "Moving Average Patient" [ref=e1247]:
+                - generic [ref=e1248]:
+                  - generic [ref=e1249]: Moving Average
+                  - generic [ref=e1250]: Patient
+              - cell [ref=e1251]:
+                - generic [ref=e1252]:
+                  - button "Edit" [ref=e1253] [cursor=pointer]:
+                    - img [ref=e1254]
+                  - button "Delete" [ref=e1256] [cursor=pointer]:
+                    - img [ref=e1257]
+            - row "10/04/2026 INDF Open 1 Rp 6.500 - Rp 1.072,5 Rp 0 Support/Resistance FOMO" [ref=e1259]:
+              - cell "10/04/2026" [ref=e1260]
+              - cell "INDF" [ref=e1261]
+              - cell "Open" [ref=e1262]:
+                - generic [ref=e1263]: Open
+              - cell "1" [ref=e1264]
+              - cell "Rp 6.500" [ref=e1265]
+              - cell "-" [ref=e1266]
+              - cell "Rp 1.072,5" [ref=e1267]
+              - cell "Rp 0" [ref=e1268]
+              - cell "Support/Resistance FOMO" [ref=e1269]:
+                - generic [ref=e1270]:
+                  - generic [ref=e1271]: Support/Resistance
+                  - generic [ref=e1272]: FOMO
+              - cell [ref=e1273]:
+                - generic [ref=e1274]:
+                  - button "Edit" [ref=e1275] [cursor=pointer]:
+                    - img [ref=e1276]
+                  - button "Delete" [ref=e1278] [cursor=pointer]:
+                    - img [ref=e1279]
+            - row "07/04/2026 ANTM Open 5 Rp 1.600 - Rp 1.320 Rp 0 Breakout Disciplined" [ref=e1281]:
+              - cell "07/04/2026" [ref=e1282]
+              - cell "ANTM" [ref=e1283]
+              - cell "Open" [ref=e1284]:
+                - generic [ref=e1285]: Open
+              - cell "5" [ref=e1286]
+              - cell "Rp 1.600" [ref=e1287]
+              - cell "-" [ref=e1288]
+              - cell "Rp 1.320" [ref=e1289]
+              - cell "Rp 0" [ref=e1290]
+              - cell "Breakout Disciplined" [ref=e1291]:
+                - generic [ref=e1292]:
+                  - generic [ref=e1293]: Breakout
+                  - generic [ref=e1294]: Disciplined
+              - cell [ref=e1295]:
+                - generic [ref=e1296]:
+                  - button "Edit" [ref=e1297] [cursor=pointer]:
+                    - img [ref=e1298]
+                  - button "Delete" [ref=e1300] [cursor=pointer]:
+                    - img [ref=e1301]
+            - row "04/04/2026 BMRI Open 6 Rp 6.000 - Rp 5.940 Rp 0 Swing Trade Impulsive" [ref=e1303]:
+              - cell "04/04/2026" [ref=e1304]
+              - cell "BMRI" [ref=e1305]
+              - cell "Open" [ref=e1306]:
+                - generic [ref=e1307]: Open
+              - cell "6" [ref=e1308]
+              - cell "Rp 6.000" [ref=e1309]
+              - cell "-" [ref=e1310]
+              - cell "Rp 5.940" [ref=e1311]
+              - cell "Rp 0" [ref=e1312]
+              - cell "Swing Trade Impulsive" [ref=e1313]:
+                - generic [ref=e1314]:
+                  - generic [ref=e1315]: Swing Trade
+                  - generic [ref=e1316]: Impulsive
+              - cell [ref=e1317]:
+                - generic [ref=e1318]:
+                  - button "Edit" [ref=e1319] [cursor=pointer]:
+                    - img [ref=e1320]
+                  - button "Delete" [ref=e1322] [cursor=pointer]:
+                    - img [ref=e1323]
+            - row "01/04/2026 UNVR Open 9 Rp 3.400 - Rp 5.049 Rp 0 Scalping Fearful" [ref=e1325]:
+              - cell "01/04/2026" [ref=e1326]
+              - cell "UNVR" [ref=e1327]
+              - cell "Open" [ref=e1328]:
+                - generic [ref=e1329]: Open
+              - cell "9" [ref=e1330]
+              - cell "Rp 3.400" [ref=e1331]
+              - cell "-" [ref=e1332]
+              - cell "Rp 5.049" [ref=e1333]
+              - cell "Rp 0" [ref=e1334]
+              - cell "Scalping Fearful" [ref=e1335]:
+                - generic [ref=e1336]:
+                  - generic [ref=e1337]: Scalping
+                  - generic [ref=e1338]: Fearful
+              - cell [ref=e1339]:
+                - generic [ref=e1340]:
+                  - button "Edit" [ref=e1341] [cursor=pointer]:
+                    - img [ref=e1342]
+                  - button "Delete" [ref=e1344] [cursor=pointer]:
+                    - img [ref=e1345]
+            - row "29/03/2026 ASII Open 4 Rp 5.500 - Rp 3.630 Rp 0 Trend Following Confident" [ref=e1347]:
+              - cell "29/03/2026" [ref=e1348]
+              - cell "ASII" [ref=e1349]
+              - cell "Open" [ref=e1350]:
+                - generic [ref=e1351]: Open
+              - cell "4" [ref=e1352]
+              - cell "Rp 5.500" [ref=e1353]
+              - cell "-" [ref=e1354]
+              - cell "Rp 3.630" [ref=e1355]
+              - cell "Rp 0" [ref=e1356]
+              - cell "Trend Following Confident" [ref=e1357]:
+                - generic [ref=e1358]:
+                  - generic [ref=e1359]: Trend Following
+                  - generic [ref=e1360]: Confident
+              - cell [ref=e1361]:
+                - generic [ref=e1362]:
+                  - button "Edit" [ref=e1363] [cursor=pointer]:
+                    - img [ref=e1364]
+                  - button "Delete" [ref=e1366] [cursor=pointer]:
+                    - img [ref=e1367]
+            - row "26/03/2026 TLKM Open 6 Rp 3.800 - Rp 3.762 Rp 0 Moving Average Patient" [ref=e1369]:
+              - cell "26/03/2026" [ref=e1370]
+              - cell "TLKM" [ref=e1371]
+              - cell "Open" [ref=e1372]:
+                - generic [ref=e1373]: Open
+              - cell "6" [ref=e1374]
+              - cell "Rp 3.800" [ref=e1375]
+              - cell "-" [ref=e1376]
+              - cell "Rp 3.762" [ref=e1377]
+              - cell "Rp 0" [ref=e1378]
+              - cell "Moving Average Patient" [ref=e1379]:
+                - generic [ref=e1380]:
+                  - generic [ref=e1381]: Moving Average
+                  - generic [ref=e1382]: Patient
+              - cell [ref=e1383]:
+                - generic [ref=e1384]:
+                  - button "Edit" [ref=e1385] [cursor=pointer]:
+                    - img [ref=e1386]
+                  - button "Delete" [ref=e1388] [cursor=pointer]:
+                    - img [ref=e1389]
+            - row "23/03/2026 BBRI Open 1 Rp 5.200 - Rp 858 Rp 0 Support/Resistance FOMO" [ref=e1391]:
+              - cell "23/03/2026" [ref=e1392]
+              - cell "BBRI" [ref=e1393]
+              - cell "Open" [ref=e1394]:
+                - generic [ref=e1395]: Open
+              - cell "1" [ref=e1396]
+              - cell "Rp 5.200" [ref=e1397]
+              - cell "-" [ref=e1398]
+              - cell "Rp 858" [ref=e1399]
+              - cell "Rp 0" [ref=e1400]
+              - cell "Support/Resistance FOMO" [ref=e1401]:
+                - generic [ref=e1402]:
+                  - generic [ref=e1403]: Support/Resistance
+                  - generic [ref=e1404]: FOMO
+              - cell [ref=e1405]:
+                - generic [ref=e1406]:
+                  - button "Edit" [ref=e1407] [cursor=pointer]:
+                    - img [ref=e1408]
+                  - button "Delete" [ref=e1410] [cursor=pointer]:
+                    - img [ref=e1411]
+            - row "20/03/2026 BBCA Open 6 Rp 9.500 - Rp 9.405 Rp 0 Breakout Disciplined" [ref=e1413]:
+              - cell "20/03/2026" [ref=e1414]
+              - cell "BBCA" [ref=e1415]
+              - cell "Open" [ref=e1416]:
+                - generic [ref=e1417]: Open
+              - cell "6" [ref=e1418]
+              - cell "Rp 9.500" [ref=e1419]
+              - cell "-" [ref=e1420]
+              - cell "Rp 9.405" [ref=e1421]
+              - cell "Rp 0" [ref=e1422]
+              - cell "Breakout Disciplined" [ref=e1423]:
+                - generic [ref=e1424]:
+                  - generic [ref=e1425]: Breakout
+                  - generic [ref=e1426]: Disciplined
+              - cell [ref=e1427]:
+                - generic [ref=e1428]:
+                  - button "Edit" [ref=e1429] [cursor=pointer]:
+                    - img [ref=e1430]
+                  - button "Delete" [ref=e1432] [cursor=pointer]:
+                    - img [ref=e1433]

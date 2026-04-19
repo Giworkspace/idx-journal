@@ -1,0 +1,95 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "New Trade" [ref=e17] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e18]
+        - text: New Trade
+    - paragraph [ref=e21]: IDX Trading Journal v1.0
+  - main [ref=e22]:
+    - generic [ref=e391]:
+      - heading "New Trade" [level=1] [ref=e392]
+      - generic [ref=e393]:
+        - generic [ref=e394]:
+          - heading "Trade Details" [level=2] [ref=e395]
+          - generic [ref=e396]:
+            - generic [ref=e397]:
+              - generic [ref=e398]: Date
+              - textbox "Date" [ref=e399]
+            - generic [ref=e400]:
+              - generic [ref=e401]: Ticker
+              - textbox "Ticker" [ref=e402]:
+                - /placeholder: e.g. BBCA
+            - generic [ref=e403]:
+              - generic [ref=e404]: Type
+              - combobox "Type" [ref=e405]:
+                - option "Buy" [selected]
+                - option "Sell"
+            - generic [ref=e406]:
+              - generic [ref=e407]: Lots
+              - spinbutton "Lots" [ref=e408]
+            - generic [ref=e409]:
+              - generic [ref=e410]: Entry Price (IDR)
+              - spinbutton "Entry Price (IDR)" [ref=e411]
+            - generic [ref=e412]:
+              - generic [ref=e413]: Exit Price (IDR)
+              - spinbutton "Exit Price (IDR)" [ref=e414]
+            - generic [ref=e415]:
+              - generic [ref=e416]: Sector
+              - combobox "Sector" [ref=e417]:
+                - option "Select sector..." [selected]
+                - option "Finance"
+                - option "Mining"
+                - option "Consumer Goods"
+                - option "Infrastructure"
+                - option "Trade & Services"
+                - option "Agriculture"
+                - option "Basic Industry"
+                - option "Miscellaneous"
+                - option "Property"
+                - option "Technology"
+        - generic [ref=e418]:
+          - generic [ref=e419]:
+            - heading "Psychology Log" [level=3] [ref=e420]
+            - paragraph [ref=e421]: How were you feeling during this trade?
+            - generic [ref=e423]:
+              - button "FOMO" [ref=e424] [cursor=pointer]
+              - button "Disciplined" [ref=e425] [cursor=pointer]
+              - button "Revenge Trade" [ref=e426] [cursor=pointer]
+              - button "Patient" [ref=e427] [cursor=pointer]
+              - button "Greedy" [ref=e428] [cursor=pointer]
+              - button "Confident" [ref=e429] [cursor=pointer]
+              - button "Fearful" [ref=e430] [cursor=pointer]
+              - button "Impulsive" [ref=e431] [cursor=pointer]
+          - generic [ref=e432]:
+            - heading "Strategy" [level=3] [ref=e433]
+            - generic [ref=e435]:
+              - button "Breakout" [ref=e436] [cursor=pointer]
+              - button "Support/Resistance" [ref=e437] [cursor=pointer]
+              - button "Moving Average" [ref=e438] [cursor=pointer]
+              - button "Trend Following" [ref=e439] [cursor=pointer]
+              - button "Scalping" [ref=e440] [cursor=pointer]
+              - button "Swing Trade" [ref=e441] [cursor=pointer]
+        - generic [ref=e442]:
+          - heading "Chart Screenshot" [level=3] [ref=e443]
+          - generic [ref=e446] [cursor=pointer]:
+            - img [ref=e447]
+            - generic [ref=e450]: Click or drag to upload chart screenshot
+            - generic [ref=e451]: PNG, JPG up to 5MB
+        - generic [ref=e452]:
+          - heading "Trade Notes" [level=3] [ref=e453]
+          - textbox "Add your notes about this trade..." [ref=e454]
+        - generic [ref=e455]:
+          - button "Cancel" [ref=e456] [cursor=pointer]
+          - button "Save Trade" [ref=e457] [cursor=pointer]

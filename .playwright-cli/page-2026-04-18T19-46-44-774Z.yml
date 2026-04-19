@@ -1,0 +1,121 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [active] [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "New Trade" [ref=e20] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e21]
+        - text: New Trade
+    - paragraph [ref=e24]: IDX Trading Journal v1.0
+  - main [ref=e25]:
+    - generic [ref=e135]:
+      - heading "Calendar" [level=1] [ref=e136]
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - button "Previous month" [ref=e140] [cursor=pointer]:
+              - img [ref=e141]
+            - heading "April 2026" [level=2] [ref=e143]
+            - button "Next month" [ref=e144] [cursor=pointer]:
+              - img [ref=e145]
+          - button "Hari Ini" [ref=e147] [cursor=pointer]
+        - generic [ref=e148]:
+          - generic [ref=e149]: Sen
+          - generic [ref=e150]: Sel
+          - generic [ref=e151]: Rab
+          - generic [ref=e152]: Kam
+          - generic [ref=e153]: Jum
+          - generic [ref=e154]: Sab
+          - generic [ref=e155]: Min
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e160]: "30"
+            - generic [ref=e163] [cursor=pointer]: "31"
+            - generic [ref=e166]: "1"
+            - generic [ref=e169]: "2"
+            - generic "🏖️ Wafat Isa Al Masih" [ref=e170] [cursor=pointer]:
+              - generic [ref=e172]: "3"
+              - generic [ref=e174]: Rp-206K
+              - generic [ref=e176]: 0W / 1L
+              - generic [ref=e178]: Wafat Isa Al Masih
+            - generic [ref=e181]: "4"
+            - generic [ref=e184]: "5"
+          - generic [ref=e185]:
+            - generic [ref=e186] [cursor=pointer]:
+              - generic [ref=e188]: "6"
+              - generic [ref=e189]: Rp35K
+              - generic [ref=e191]: 1W / 0L
+            - generic [ref=e194]: "7"
+            - generic [ref=e197]: "8"
+            - generic [ref=e198] [cursor=pointer]:
+              - generic [ref=e200]: "9"
+              - generic [ref=e201]: Rp174K
+              - generic [ref=e203]: 1W / 0L
+            - generic [ref=e206]: "10"
+            - generic [ref=e209]: "11"
+            - generic [ref=e210] [cursor=pointer]:
+              - generic [ref=e212]: "12"
+              - generic [ref=e213]: Rp-245K
+              - generic [ref=e215]: 0W / 1L
+          - generic [ref=e216]:
+            - generic [ref=e219]: "13"
+            - generic [ref=e222]: "14"
+            - generic [ref=e223] [cursor=pointer]:
+              - generic [ref=e225]: "15"
+              - generic [ref=e226]: Rp5K
+              - generic [ref=e228]: 1W / 0L
+            - generic [ref=e231]: "16"
+            - generic [ref=e234]: "17"
+            - generic [ref=e237]: "18"
+            - generic [ref=e240]: "19"
+          - generic [ref=e241]:
+            - generic [ref=e244]: "20"
+            - generic [ref=e247]: "21"
+            - generic [ref=e250]: "22"
+            - generic [ref=e253]: "23"
+            - generic [ref=e256]: "24"
+            - generic [ref=e259]: "25"
+            - generic [ref=e262]: "26"
+          - generic [ref=e263]:
+            - generic [ref=e266]: "27"
+            - generic [ref=e269]: "28"
+            - generic [ref=e272]: "29"
+            - generic [ref=e275]: "30"
+            - generic "🏖️ Hari Buruh" [ref=e276]:
+              - generic [ref=e278]: "1"
+            - generic [ref=e281]: "2"
+            - generic [ref=e284]: "3"
+          - generic [ref=e285]:
+            - generic [ref=e288]: "4"
+            - generic [ref=e291]: "5"
+            - generic [ref=e294]: "6"
+            - generic [ref=e297]: "7"
+            - generic [ref=e300]: "8"
+            - generic [ref=e303]: "9"
+            - generic [ref=e306]: "10"
+        - generic [ref=e308]:
+          - generic [ref=e309]:
+            - generic [ref=e310]: "Monthly P/L: -Rp 237.507,73"
+            - generic [ref=e311]: "Trading Days: 5"
+            - generic [ref=e312]: "Trades: 5"
+            - generic [ref=e313]:
+              - text: "Win Rate:"
+              - generic [ref=e314]: 60.0%
+          - generic [ref=e315]:
+            - generic [ref=e316]: Profit
+            - generic [ref=e318]: Loss
+            - generic [ref=e320]: Holiday

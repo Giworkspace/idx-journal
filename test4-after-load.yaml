@@ -1,0 +1,131 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "Goals" [ref=e20] [cursor=pointer]:
+        - /url: /goals
+        - img [ref=e21]
+        - text: Goals
+      - link "New Trade" [ref=e25] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e26]
+        - text: New Trade
+    - paragraph [ref=e29]: IDX Trading Journal v1.0
+  - main [ref=e30]:
+    - generic [ref=e32]:
+      - heading "Dashboard" [level=1] [ref=e43]
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - img [ref=e48]
+            - generic [ref=e50]: Total Net P/L
+          - generic [ref=e52]: Rp 443.052,23
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - img [ref=e56]
+            - generic [ref=e60]: Win Rate
+          - generic [ref=e62]: 70.0%
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - img [ref=e66]
+            - generic [ref=e69]: Profit Factor
+          - generic [ref=e71]: "1.62"
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - img [ref=e75]
+            - generic [ref=e76]: Total Trades
+          - generic [ref=e78]: "10"
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - img "Target" [ref=e83]: 🎯
+            - generic [ref=e84]: Goal Progress 2026
+          - generic [ref=e85]: 🔴 Behind
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - paragraph [ref=e90]: Actual
+            - paragraph [ref=e91]: Rp443K
+          - generic [ref=e92]:
+            - paragraph [ref=e93]: Progress
+            - paragraph [ref=e94]: 0.9%
+          - generic [ref=e95]:
+            - paragraph [ref=e96]: Target
+            - paragraph [ref=e97]: Rp50.0M
+        - link "View Details →" [ref=e99] [cursor=pointer]:
+          - /url: /goals
+          - text: View Details
+          - generic [ref=e100]: →
+      - generic [ref=e101]:
+        - generic [ref=e103]:
+          - heading "Equity Curve" [level=3] [ref=e104]
+          - img [ref=e106]
+        - generic [ref=e108]:
+          - heading "Win Rate" [level=3] [ref=e109]
+          - generic [ref=e110]:
+            - img [ref=e111]
+            - generic:
+              - generic: 70%
+              - generic: Win Rate
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - heading "Recent Trades" [level=3] [ref=e114]
+          - link "View All →" [ref=e115] [cursor=pointer]:
+            - /url: /trades
+        - table [ref=e117]:
+          - rowgroup [ref=e118]:
+            - row "Date Ticker Type Lots Net P/L" [ref=e119]:
+              - columnheader "Date" [ref=e120]
+              - columnheader "Ticker" [ref=e121]
+              - columnheader "Type" [ref=e122]
+              - columnheader "Lots" [ref=e123]
+              - columnheader "Net P/L" [ref=e124]
+          - rowgroup [ref=e125]:
+            - row "16 Apr 2026 GOTO Buy 8 Rp 4.479,6" [ref=e126]:
+              - cell "16 Apr 2026" [ref=e127]
+              - cell "GOTO" [ref=e128]
+              - cell "Buy" [ref=e129]:
+                - generic [ref=e130]: Buy
+              - cell "8" [ref=e131]
+              - cell "Rp 4.479,6" [ref=e132]
+            - row "13 Apr 2026 ICBP Buy 7 -Rp 371.640,5" [ref=e133]:
+              - cell "13 Apr 2026" [ref=e134]
+              - cell "ICBP" [ref=e135]
+              - cell "Buy" [ref=e136]:
+                - generic [ref=e137]: Buy
+              - cell "7" [ref=e138]
+              - cell "-Rp 371.640,5" [ref=e139]
+            - row "10 Apr 2026 INDF Buy 7 Rp 301.104,13" [ref=e140]:
+              - cell "10 Apr 2026" [ref=e141]
+              - cell "INDF" [ref=e142]
+              - cell "Buy" [ref=e143]:
+                - generic [ref=e144]: Buy
+              - cell "7" [ref=e145]
+              - cell "Rp 301.104,13" [ref=e146]
+            - row "07 Apr 2026 ANTM Buy 6 Rp 67.143,75" [ref=e147]:
+              - cell "07 Apr 2026" [ref=e148]
+              - cell "ANTM" [ref=e149]
+              - cell "Buy" [ref=e150]:
+                - generic [ref=e151]: Buy
+              - cell "6" [ref=e152]
+              - cell "Rp 67.143,75" [ref=e153]
+            - row "04 Apr 2026 BMRI Buy 8 -Rp 276.975" [ref=e154]:
+              - cell "04 Apr 2026" [ref=e155]
+              - cell "BMRI" [ref=e156]
+              - cell "Buy" [ref=e157]:
+                - generic [ref=e158]: Buy
+              - cell "8" [ref=e159]
+              - cell "-Rp 276.975" [ref=e160]

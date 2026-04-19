@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-binance bg-white text-ink antialiased;
+  }
+}
+
+@layer components {
+  /* Add any utility classes needed */
+  .transition-standard {
+    @apply transition-all duration-200 ease-in-out;
+  }
+}

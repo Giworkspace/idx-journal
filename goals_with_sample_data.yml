@@ -1,0 +1,151 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "Goals" [ref=e20] [cursor=pointer]:
+        - /url: /goals
+        - img [ref=e21]
+        - text: Goals
+      - link "New Trade" [ref=e25] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e26]
+        - text: New Trade
+    - paragraph [ref=e29]: IDX Trading Journal v1.0
+  - main [ref=e30]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - heading "Goals & Progress" [level=1] [ref=e34]
+        - button "⚙️ Edit Goals" [ref=e35] [cursor=pointer]
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - heading "📌 This Week's Target" [level=3] [ref=e39]
+          - generic [ref=e40]: W2 · 13-19 Apr
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]: 🎯 Target
+            - generic [ref=e44]: +1.34%
+            - generic [ref=e45]: Rp 163.891,12
+          - generic [ref=e46]:
+            - generic [ref=e47]: 📊 Actual
+            - generic [ref=e48]: "-0.68%"
+            - generic [ref=e49]: "-Rp 67.892,73"
+          - generic [ref=e50]:
+            - generic [ref=e51]: 🔴 Progress
+            - generic [ref=e52]: "-50.6%"
+            - generic [ref=e53]: of target
+        - generic [ref=e56]:
+          - generic [ref=e57]: 🔄 2 trades this week
+          - generic [ref=e58]: 🔴 Behind
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - heading "🎯 Annual Progress 2026" [level=3] [ref=e62]
+          - generic [ref=e63]: 🔴 Behind
+        - generic [ref=e68]: "-0.0% of annual target"
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - paragraph [ref=e71]: Actual P/L
+            - paragraph [ref=e72]: "-Rp 1.950,98"
+          - generic [ref=e73]:
+            - paragraph [ref=e74]: Target P/L
+            - paragraph [ref=e75]: Rp 10.000.000
+          - generic [ref=e76]:
+            - paragraph [ref=e77]: Progress
+            - paragraph [ref=e78]: "-0.0%"
+          - generic [ref=e79]:
+            - paragraph [ref=e80]: Remaining
+            - paragraph [ref=e81]: Rp 10.001.950,98
+        - paragraph [ref=e83]: "Modal: Rp 10.000.000 → Target Akhir Tahun: Rp 20.000.000"
+      - generic [ref=e85]:
+        - heading "📊 Monthly Breakdown" [level=3] [ref=e86]
+        - img [ref=e88]
+        - generic [ref=e89]:
+          - generic [ref=e92]: Target
+          - generic [ref=e95]: Actual
+        - paragraph [ref=e96]: Click a month to see weekly details
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - heading "📅 Weekly Detail — Apr" [level=3] [ref=e100]
+          - button [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+        - table [ref=e106]:
+          - rowgroup [ref=e107]:
+            - row "Week Period Target Target % Actual Actual % Diff Status Trades" [ref=e108]:
+              - columnheader "Week" [ref=e109]
+              - columnheader "Period" [ref=e110]
+              - columnheader "Target" [ref=e111]
+              - columnheader "Target %" [ref=e112]
+              - columnheader "Actual" [ref=e113]
+              - columnheader "Actual %" [ref=e114]
+              - columnheader "Diff" [ref=e115]
+              - columnheader "Status" [ref=e116]
+              - columnheader "Trades" [ref=e117]
+          - rowgroup [ref=e118]:
+            - row "W1 06 Apr - 12 Apr Rp 161.720,99 +1.34% Rp 75.398,38 +0.75% -Rp 86.322,61 🔴 Behind 2" [ref=e119]:
+              - cell "W1" [ref=e120]
+              - cell "06 Apr - 12 Apr" [ref=e121]
+              - cell "Rp 161.720,99" [ref=e122]
+              - cell "+1.34%" [ref=e123]
+              - cell "Rp 75.398,38" [ref=e124]
+              - cell "+0.75%" [ref=e125]
+              - cell "-Rp 86.322,61" [ref=e126]
+              - cell "🔴 Behind" [ref=e127]:
+                - generic [ref=e128]: 🔴 Behind
+              - cell "2" [ref=e129]
+            - row "W2 13 Apr - 19 Apr Rp 163.891,12 +1.34% -Rp 67.892,73 -0.68% -Rp 231.783,85 🔴 Behind 2" [ref=e130]:
+              - cell "W2" [ref=e131]
+              - cell "13 Apr - 19 Apr" [ref=e132]
+              - cell "Rp 163.891,12" [ref=e133]
+              - cell "+1.34%" [ref=e134]
+              - cell "-Rp 67.892,73" [ref=e135]
+              - cell "-0.68%" [ref=e136]
+              - cell "-Rp 231.783,85" [ref=e137]
+              - cell "🔴 Behind" [ref=e138]:
+                - generic [ref=e139]: 🔴 Behind
+              - cell "2" [ref=e140]
+            - row "W3 20 Apr - 26 Apr Rp 166.090,38 +1.34% Rp 0 0.00% -Rp 166.090,38 🔴 Behind 0" [ref=e141]:
+              - cell "W3" [ref=e142]
+              - cell "20 Apr - 26 Apr" [ref=e143]
+              - cell "Rp 166.090,38" [ref=e144]
+              - cell "+1.34%" [ref=e145]
+              - cell "Rp 0" [ref=e146]
+              - cell "0.00%" [ref=e147]
+              - cell "-Rp 166.090,38" [ref=e148]
+              - cell "🔴 Behind" [ref=e149]:
+                - generic [ref=e150]: 🔴 Behind
+              - cell "0" [ref=e151]
+            - row "W4 27 Apr - 03 Mei Rp 168.319,14 +1.34% Rp 0 0.00% -Rp 168.319,14 🔴 Behind 0" [ref=e152]:
+              - cell "W4" [ref=e153]
+              - cell "27 Apr - 03 Mei" [ref=e154]
+              - cell "Rp 168.319,14" [ref=e155]
+              - cell "+1.34%" [ref=e156]
+              - cell "Rp 0" [ref=e157]
+              - cell "0.00%" [ref=e158]
+              - cell "-Rp 168.319,14" [ref=e159]
+              - cell "🔴 Behind" [ref=e160]:
+                - generic [ref=e161]: 🔴 Behind
+              - cell "0" [ref=e162]
+          - rowgroup [ref=e163]:
+            - row "Total Rp 660.021,63 Rp 7.505,65 +0.08% -Rp 652.515,98 📈 4" [ref=e164]:
+              - cell "Total" [ref=e165]
+              - cell [ref=e166]
+              - cell "Rp 660.021,63" [ref=e167]
+              - cell [ref=e168]
+              - cell "Rp 7.505,65" [ref=e169]
+              - cell "+0.08%" [ref=e170]
+              - cell "-Rp 652.515,98" [ref=e171]
+              - cell "📈" [ref=e172]
+              - cell "4" [ref=e173]

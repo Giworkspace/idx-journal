@@ -1,0 +1,107 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [active] [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "New Trade" [ref=e20] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e21]
+        - text: New Trade
+    - paragraph [ref=e24]: IDX Trading Journal v1.0
+  - main [ref=e25]:
+    - generic [ref=e1800]:
+      - heading "Dashboard" [level=1] [ref=e1801]
+      - generic [ref=e1802]:
+        - generic [ref=e1803]:
+          - generic [ref=e1804]:
+            - img [ref=e1806]
+            - generic [ref=e1808]: Total Net P/L
+          - generic [ref=e1810]: "-Rp 21.066,35"
+        - generic [ref=e1811]:
+          - generic [ref=e1812]:
+            - img [ref=e1814]
+            - generic [ref=e1818]: Win Rate
+          - generic [ref=e1820]: 70.0%
+        - generic [ref=e1821]:
+          - generic [ref=e1822]:
+            - img [ref=e1824]
+            - generic [ref=e1827]: Profit Factor
+          - generic [ref=e1829]: "0.97"
+        - generic [ref=e1830]:
+          - generic [ref=e1831]:
+            - img [ref=e1833]
+            - generic [ref=e1834]: Total Trades
+          - generic [ref=e1836]: "10"
+      - generic [ref=e1837]:
+        - generic [ref=e1839]:
+          - heading "Equity Curve" [level=3] [ref=e1840]
+          - img [ref=e1842]
+        - generic [ref=e1844]:
+          - heading "Win Rate" [level=3] [ref=e1845]
+          - generic [ref=e1846]:
+            - img [ref=e1847]
+            - generic:
+              - generic: 70%
+              - generic: Win Rate
+      - generic [ref=e1849]:
+        - generic [ref=e1850]:
+          - heading "Recent Trades" [level=3] [ref=e1851]
+          - link "View All →" [ref=e1852] [cursor=pointer]:
+            - /url: /trades
+        - table [ref=e1854]:
+          - rowgroup [ref=e1855]:
+            - row "Date Ticker Type Lots Net P/L" [ref=e1856]:
+              - columnheader "Date" [ref=e1857]
+              - columnheader "Ticker" [ref=e1858]
+              - columnheader "Type" [ref=e1859]
+              - columnheader "Lots" [ref=e1860]
+              - columnheader "Net P/L" [ref=e1861]
+          - rowgroup [ref=e1862]:
+            - row "15 Apr 2026 GOTO Buy 7 Rp 4.617,03" [ref=e1863]:
+              - cell "15 Apr 2026" [ref=e1864]
+              - cell "GOTO" [ref=e1865]
+              - cell "Buy" [ref=e1866]:
+                - generic [ref=e1867]: Buy
+              - cell "7" [ref=e1868]
+              - cell "Rp 4.617,03" [ref=e1869]
+            - row "12 Apr 2026 ICBP Buy 5 -Rp 244.536,25" [ref=e1870]:
+              - cell "12 Apr 2026" [ref=e1871]
+              - cell "ICBP" [ref=e1872]
+              - cell "Buy" [ref=e1873]:
+                - generic [ref=e1874]: Buy
+              - cell "5" [ref=e1875]
+              - cell "-Rp 244.536,25" [ref=e1876]
+            - row "09 Apr 2026 INDF Buy 4 Rp 173.653,5" [ref=e1877]:
+              - cell "09 Apr 2026" [ref=e1878]
+              - cell "INDF" [ref=e1879]
+              - cell "Buy" [ref=e1880]:
+                - generic [ref=e1881]: Buy
+              - cell "4" [ref=e1882]
+              - cell "Rp 173.653,5" [ref=e1883]
+            - row "06 Apr 2026 ANTM Buy 4 Rp 34.800" [ref=e1884]:
+              - cell "06 Apr 2026" [ref=e1885]
+              - cell "ANTM" [ref=e1886]
+              - cell "Buy" [ref=e1887]:
+                - generic [ref=e1888]: Buy
+              - cell "4" [ref=e1889]
+              - cell "Rp 34.800" [ref=e1890]
+            - row "03 Apr 2026 BMRI Buy 8 -Rp 206.042" [ref=e1891]:
+              - cell "03 Apr 2026" [ref=e1892]
+              - cell "BMRI" [ref=e1893]
+              - cell "Buy" [ref=e1894]:
+                - generic [ref=e1895]: Buy
+              - cell "8" [ref=e1896]
+              - cell "-Rp 206.042" [ref=e1897]

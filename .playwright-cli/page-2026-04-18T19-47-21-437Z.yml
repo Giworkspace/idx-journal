@@ -1,0 +1,104 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "New Trade" [ref=e20] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e21]
+        - text: New Trade
+    - paragraph [ref=e24]: IDX Trading Journal v1.0
+  - main [ref=e25]:
+    - generic [ref=e135]:
+      - heading "Calendar" [level=1] [ref=e136]
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - button "Previous month" [ref=e140] [cursor=pointer]:
+              - img [ref=e141]
+            - heading "November 2026" [level=2] [ref=e1540]
+            - button "Next month" [active] [ref=e144] [cursor=pointer]:
+              - img [ref=e145]
+          - button "Hari Ini" [ref=e147] [cursor=pointer]
+        - generic [ref=e148]:
+          - generic [ref=e149]: Sen
+          - generic [ref=e150]: Sel
+          - generic [ref=e151]: Rab
+          - generic [ref=e152]: Kam
+          - generic [ref=e153]: Jum
+          - generic [ref=e154]: Sab
+          - generic [ref=e155]: Min
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e1543]: "26"
+            - generic [ref=e1546]: "27"
+            - generic [ref=e1549]: "28"
+            - generic [ref=e1552]: "29"
+            - generic [ref=e1555]: "30"
+            - generic [ref=e1558]: "31"
+            - generic [ref=e1561]: "1"
+          - generic [ref=e185]:
+            - generic [ref=e1564]: "2"
+            - generic [ref=e1567]: "3"
+            - generic [ref=e1570]: "4"
+            - generic [ref=e1573]: "5"
+            - generic [ref=e1576]: "6"
+            - generic [ref=e1579]: "7"
+            - generic [ref=e1582]: "8"
+          - generic [ref=e216]:
+            - generic [ref=e1585]: "9"
+            - generic [ref=e1588]: "10"
+            - generic [ref=e1591]: "11"
+            - generic [ref=e1594]: "12"
+            - generic [ref=e1597]: "13"
+            - generic [ref=e1600]: "14"
+            - generic [ref=e1603]: "15"
+          - generic [ref=e241]:
+            - generic [ref=e1606]: "16"
+            - generic [ref=e1609]: "17"
+            - generic [ref=e1612]: "18"
+            - generic [ref=e1615]: "19"
+            - generic [ref=e1618]: "20"
+            - generic [ref=e1621]: "21"
+            - generic [ref=e1624]: "22"
+          - generic [ref=e263]:
+            - generic [ref=e1627]: "23"
+            - generic [ref=e1630]: "24"
+            - generic [ref=e1633]: "25"
+            - generic [ref=e1636]: "26"
+            - generic [ref=e1639]: "27"
+            - generic [ref=e1642]: "28"
+            - generic [ref=e1645]: "29"
+          - generic [ref=e285]:
+            - generic [ref=e1648]: "30"
+            - generic [ref=e1651]: "1"
+            - generic [ref=e1654]: "2"
+            - generic [ref=e1657]: "3"
+            - generic [ref=e1660]: "4"
+            - generic [ref=e1663]: "5"
+            - generic [ref=e1666]: "6"
+        - generic [ref=e308]:
+          - generic [ref=e309]:
+            - generic [ref=e310]: "Monthly P/L: Rp 0"
+            - generic [ref=e311]: "Trading Days: 0"
+            - generic [ref=e312]: "Trades: 0"
+            - generic [ref=e313]:
+              - text: "Win Rate:"
+              - generic [ref=e314]: 0.0%
+          - generic [ref=e315]:
+            - generic [ref=e316]: Profit
+            - generic [ref=e318]: Loss
+            - generic [ref=e320]: Holiday

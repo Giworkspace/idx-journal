@@ -1,0 +1,375 @@
+- generic [ref=e3]:
+  - banner [ref=e854]:
+    - heading "IDXJournal" [level=1] [ref=e855]
+  - main [ref=e22]:
+    - generic [ref=e918]:
+      - generic [ref=e919]:
+        - heading "Trade Log" [level=1] [ref=e920]
+        - link "+ Add Trade" [ref=e921] [cursor=pointer]:
+          - /url: /trades/new
+          - button "+ Add Trade" [ref=e922]
+      - generic [ref=e923]:
+        - generic [ref=e924]:
+          - textbox "Search ticker..." [ref=e927]
+          - generic [ref=e929]:
+            - generic [ref=e930]: From
+            - textbox "From" [ref=e931]
+          - generic [ref=e933]:
+            - generic [ref=e934]: To
+            - textbox "To" [ref=e935]
+          - generic [ref=e937]:
+            - generic [ref=e938]: Strategy
+            - combobox "Strategy" [ref=e939]:
+              - option "All" [selected]
+              - option "Breakout"
+              - option "Support/Resistance"
+              - option "Moving Average"
+              - option "Trend Following"
+              - option "Scalping"
+              - option "Swing Trade"
+          - button "Clear" [ref=e941] [cursor=pointer]
+        - generic [ref=e942]:
+          - generic [ref=e943]:
+            - generic [ref=e944]:
+              - generic [ref=e945]:
+                - generic [ref=e946]:
+                  - generic [ref=e947]: BBCA
+                  - generic [ref=e948]: Buy
+                - generic [ref=e949]: 19/04/2026
+              - generic [ref=e950]:
+                - generic [ref=e951]: Net P/L
+                - generic [ref=e952]: Rp 123.787,5
+            - generic [ref=e953]:
+              - generic [ref=e954]:
+                - generic [ref=e955]: Entry
+                - generic [ref=e956]: Rp 9.500
+              - generic [ref=e957]: →
+              - generic [ref=e958]:
+                - generic [ref=e959]: Exit
+                - generic [ref=e960]: Rp 9.800
+              - generic [ref=e961]:
+                - generic [ref=e962]: Lots
+                - generic [ref=e963]: "5"
+            - generic [ref=e964]:
+              - generic [ref=e966]:
+                - generic [ref=e967]: Breakout
+                - generic [ref=e968]: Disciplined
+              - generic [ref=e969]:
+                - button [ref=e970] [cursor=pointer]:
+                  - img [ref=e971]
+                - button [ref=e973] [cursor=pointer]:
+                  - img [ref=e974]
+          - generic [ref=e976]:
+            - generic [ref=e977]:
+              - generic [ref=e978]:
+                - generic [ref=e979]:
+                  - generic [ref=e980]: GOTO
+                  - generic [ref=e981]: Buy
+                - generic [ref=e982]: 15/04/2026
+              - generic [ref=e983]:
+                - generic [ref=e984]: Net P/L
+                - generic [ref=e985]: Rp 783,23
+            - generic [ref=e986]:
+              - generic [ref=e987]:
+                - generic [ref=e988]: Entry
+                - generic [ref=e989]: Rp 70
+              - generic [ref=e990]: →
+              - generic [ref=e991]:
+                - generic [ref=e992]: Exit
+                - generic [ref=e993]: Rp 73
+              - generic [ref=e994]:
+                - generic [ref=e995]: Lots
+                - generic [ref=e996]: "3"
+            - generic [ref=e997]:
+              - generic [ref=e999]:
+                - generic [ref=e1000]: Trend Following
+                - generic [ref=e1001]: Confident
+              - generic [ref=e1002]:
+                - button [ref=e1003] [cursor=pointer]:
+                  - img [ref=e1004]
+                - button [ref=e1006] [cursor=pointer]:
+                  - img [ref=e1007]
+          - generic [ref=e1009]:
+            - generic [ref=e1010]:
+              - generic [ref=e1011]:
+                - generic [ref=e1012]:
+                  - generic [ref=e1013]: ICBP
+                  - generic [ref=e1014]: Buy
+                - generic [ref=e1015]: 12/04/2026
+              - generic [ref=e1016]:
+                - generic [ref=e1017]: Net P/L
+                - generic [ref=e1018]: "-Rp 81.276,75"
+            - generic [ref=e1019]:
+              - generic [ref=e1020]:
+                - generic [ref=e1021]: Entry
+                - generic [ref=e1022]: Rp 10.500
+              - generic [ref=e1023]: →
+              - generic [ref=e1024]:
+                - generic [ref=e1025]: Exit
+                - generic [ref=e1026]: Rp 10.149
+              - generic [ref=e1027]:
+                - generic [ref=e1028]: Lots
+                - generic [ref=e1029]: "2"
+            - generic [ref=e1030]:
+              - generic [ref=e1032]:
+                - generic [ref=e1033]: Moving Average
+                - generic [ref=e1034]: Patient
+              - generic [ref=e1035]:
+                - button [ref=e1036] [cursor=pointer]:
+                  - img [ref=e1037]
+                - button [ref=e1039] [cursor=pointer]:
+                  - img [ref=e1040]
+          - generic [ref=e1042]:
+            - generic [ref=e1043]:
+              - generic [ref=e1044]:
+                - generic [ref=e1045]:
+                  - generic [ref=e1046]: INDF
+                  - generic [ref=e1047]: Buy
+                - generic [ref=e1048]: 09/04/2026
+              - generic [ref=e1049]:
+                - generic [ref=e1050]: Net P/L
+                - generic [ref=e1051]: Rp 423.819
+            - generic [ref=e1052]:
+              - generic [ref=e1053]:
+                - generic [ref=e1054]: Entry
+                - generic [ref=e1055]: Rp 6.500
+              - generic [ref=e1056]: →
+              - generic [ref=e1057]:
+                - generic [ref=e1058]: Exit
+                - generic [ref=e1059]: Rp 7.067
+              - generic [ref=e1060]:
+                - generic [ref=e1061]: Lots
+                - generic [ref=e1062]: "8"
+            - generic [ref=e1063]:
+              - generic [ref=e1065]:
+                - generic [ref=e1066]: Support/Resistance
+                - generic [ref=e1067]: FOMO
+              - generic [ref=e1068]:
+                - button [ref=e1069] [cursor=pointer]:
+                  - img [ref=e1070]
+                - button [ref=e1072] [cursor=pointer]:
+                  - img [ref=e1073]
+          - generic [ref=e1075]:
+            - generic [ref=e1076]:
+              - generic [ref=e1077]:
+                - generic [ref=e1078]:
+                  - generic [ref=e1079]: ANTM
+                  - generic [ref=e1080]: Buy
+                - generic [ref=e1081]: 06/04/2026
+              - generic [ref=e1082]:
+                - generic [ref=e1083]: Net P/L
+                - generic [ref=e1084]: Rp 14.378,63
+            - generic [ref=e1085]:
+              - generic [ref=e1086]:
+                - generic [ref=e1087]: Entry
+                - generic [ref=e1088]: Rp 1.600
+              - generic [ref=e1089]: →
+              - generic [ref=e1090]:
+                - generic [ref=e1091]: Exit
+                - generic [ref=e1092]: Rp 1.753
+              - generic [ref=e1093]:
+                - generic [ref=e1094]: Lots
+                - generic [ref=e1095]: "1"
+            - generic [ref=e1096]:
+              - generic [ref=e1098]:
+                - generic [ref=e1099]: Breakout
+                - generic [ref=e1100]: Disciplined
+              - generic [ref=e1101]:
+                - button [ref=e1102] [cursor=pointer]:
+                  - img [ref=e1103]
+                - button [ref=e1105] [cursor=pointer]:
+                  - img [ref=e1106]
+          - generic [ref=e1108]:
+            - generic [ref=e1109]:
+              - generic [ref=e1110]:
+                - generic [ref=e1111]:
+                  - generic [ref=e1112]: BMRI
+                  - generic [ref=e1113]: Buy
+                - generic [ref=e1114]: 03/04/2026
+              - generic [ref=e1115]:
+                - generic [ref=e1116]: Net P/L
+                - generic [ref=e1117]: "-Rp 18.084,13"
+            - generic [ref=e1118]:
+              - generic [ref=e1119]:
+                - generic [ref=e1120]: Entry
+                - generic [ref=e1121]: Rp 6.000
+              - generic [ref=e1122]: →
+              - generic [ref=e1123]:
+                - generic [ref=e1124]: Exit
+                - generic [ref=e1125]: Rp 5.851
+              - generic [ref=e1126]:
+                - generic [ref=e1127]: Lots
+                - generic [ref=e1128]: "1"
+            - generic [ref=e1129]:
+              - generic [ref=e1131]:
+                - generic [ref=e1132]: Swing Trade
+                - generic [ref=e1133]: Impulsive
+              - generic [ref=e1134]:
+                - button [ref=e1135] [cursor=pointer]:
+                  - img [ref=e1136]
+                - button [ref=e1138] [cursor=pointer]:
+                  - img [ref=e1139]
+          - generic [ref=e1141]:
+            - generic [ref=e1142]:
+              - generic [ref=e1143]:
+                - generic [ref=e1144]:
+                  - generic [ref=e1145]: UNVR
+                  - generic [ref=e1146]: Buy
+                - generic [ref=e1147]: 31/03/2026
+              - generic [ref=e1148]:
+                - generic [ref=e1149]: Net P/L
+                - generic [ref=e1150]: Rp 110.796,75
+            - generic [ref=e1151]:
+              - generic [ref=e1152]:
+                - generic [ref=e1153]: Entry
+                - generic [ref=e1154]: Rp 3.400
+              - generic [ref=e1155]: →
+              - generic [ref=e1156]:
+                - generic [ref=e1157]: Exit
+                - generic [ref=e1158]: Rp 3.542
+              - generic [ref=e1159]:
+                - generic [ref=e1160]: Lots
+                - generic [ref=e1161]: "9"
+            - generic [ref=e1162]:
+              - generic [ref=e1164]:
+                - generic [ref=e1165]: Scalping
+                - generic [ref=e1166]: Fearful
+              - generic [ref=e1167]:
+                - button [ref=e1168] [cursor=pointer]:
+                  - img [ref=e1169]
+                - button [ref=e1171] [cursor=pointer]:
+                  - img [ref=e1172]
+          - generic [ref=e1174]:
+            - generic [ref=e1175]:
+              - generic [ref=e1176]:
+                - generic [ref=e1177]:
+                  - generic [ref=e1178]: ASII
+                  - generic [ref=e1179]: Buy
+                - generic [ref=e1180]: 28/03/2026
+              - generic [ref=e1181]:
+                - generic [ref=e1182]: Net P/L
+                - generic [ref=e1183]: "-Rp 37.421,5"
+            - generic [ref=e1184]:
+              - generic [ref=e1185]:
+                - generic [ref=e1186]: Entry
+                - generic [ref=e1187]: Rp 5.500
+              - generic [ref=e1188]: →
+              - generic [ref=e1189]:
+                - generic [ref=e1190]: Exit
+                - generic [ref=e1191]: Rp 5.342
+              - generic [ref=e1192]:
+                - generic [ref=e1193]: Lots
+                - generic [ref=e1194]: "2"
+            - generic [ref=e1195]:
+              - generic [ref=e1197]:
+                - generic [ref=e1198]: Trend Following
+                - generic [ref=e1199]: Confident
+              - generic [ref=e1200]:
+                - button [ref=e1201] [cursor=pointer]:
+                  - img [ref=e1202]
+                - button [ref=e1204] [cursor=pointer]:
+                  - img [ref=e1205]
+          - generic [ref=e1207]:
+            - generic [ref=e1208]:
+              - generic [ref=e1209]:
+                - generic [ref=e1210]:
+                  - generic [ref=e1211]: TLKM
+                  - generic [ref=e1212]: Buy
+                - generic [ref=e1213]: 25/03/2026
+              - generic [ref=e1214]:
+                - generic [ref=e1215]: Net P/L
+                - generic [ref=e1216]: Rp 24.249
+            - generic [ref=e1217]:
+              - generic [ref=e1218]:
+                - generic [ref=e1219]: Entry
+                - generic [ref=e1220]: Rp 3.800
+              - generic [ref=e1221]: →
+              - generic [ref=e1222]:
+                - generic [ref=e1223]: Exit
+                - generic [ref=e1224]: Rp 4.064
+              - generic [ref=e1225]:
+                - generic [ref=e1226]: Lots
+                - generic [ref=e1227]: "1"
+            - generic [ref=e1228]:
+              - generic [ref=e1230]:
+                - generic [ref=e1231]: Moving Average
+                - generic [ref=e1232]: Patient
+              - generic [ref=e1233]:
+                - button [ref=e1234] [cursor=pointer]:
+                  - img [ref=e1235]
+                - button [ref=e1237] [cursor=pointer]:
+                  - img [ref=e1238]
+          - generic [ref=e1240]:
+            - generic [ref=e1241]:
+              - generic [ref=e1242]:
+                - generic [ref=e1243]:
+                  - generic [ref=e1244]: BBRI
+                  - generic [ref=e1245]: Buy
+                - generic [ref=e1246]: 22/03/2026
+              - generic [ref=e1247]:
+                - generic [ref=e1248]: Net P/L
+                - generic [ref=e1249]: Rp 80.043
+            - generic [ref=e1250]:
+              - generic [ref=e1251]:
+                - generic [ref=e1252]: Entry
+                - generic [ref=e1253]: Rp 5.200
+              - generic [ref=e1254]: →
+              - generic [ref=e1255]:
+                - generic [ref=e1256]: Exit
+                - generic [ref=e1257]: Rp 5.496
+              - generic [ref=e1258]:
+                - generic [ref=e1259]: Lots
+                - generic [ref=e1260]: "3"
+            - generic [ref=e1261]:
+              - generic [ref=e1263]:
+                - generic [ref=e1264]: Support/Resistance
+                - generic [ref=e1265]: FOMO
+              - generic [ref=e1266]:
+                - button [ref=e1267] [cursor=pointer]:
+                  - img [ref=e1268]
+                - button [ref=e1270] [cursor=pointer]:
+                  - img [ref=e1271]
+          - generic [ref=e1273]:
+            - generic [ref=e1274]:
+              - generic [ref=e1275]:
+                - generic [ref=e1276]:
+                  - generic [ref=e1277]: BBCA
+                  - generic [ref=e1278]: Buy
+                - generic [ref=e1279]: 19/03/2026
+              - generic [ref=e1280]:
+                - generic [ref=e1281]: Net P/L
+                - generic [ref=e1282]: Rp 604.280,25
+            - generic [ref=e1283]:
+              - generic [ref=e1284]:
+                - generic [ref=e1285]: Entry
+                - generic [ref=e1286]: Rp 9.500
+              - generic [ref=e1287]: →
+              - generic [ref=e1288]:
+                - generic [ref=e1289]: Exit
+                - generic [ref=e1290]: Rp 10.418
+              - generic [ref=e1291]:
+                - generic [ref=e1292]: Lots
+                - generic [ref=e1293]: "7"
+            - generic [ref=e1294]:
+              - generic [ref=e1296]:
+                - generic [ref=e1297]: Breakout
+                - generic [ref=e1298]: Disciplined
+              - generic [ref=e1299]:
+                - button [ref=e1300] [cursor=pointer]:
+                  - img [ref=e1301]
+                - button [ref=e1303] [cursor=pointer]:
+                  - img [ref=e1304]
+  - navigation [ref=e902]:
+    - generic [ref=e903]:
+      - link "Dashboard" [ref=e904] [cursor=pointer]:
+        - /url: /
+        - img [ref=e905]
+        - generic [ref=e910]: Dashboard
+      - link "Trade Log" [active] [ref=e911] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e912]
+        - generic [ref=e913]: Trade Log
+      - link "New Trade" [ref=e914] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e915]
+        - generic [ref=e917]: New Trade

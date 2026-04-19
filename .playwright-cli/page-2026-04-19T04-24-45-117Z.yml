@@ -1,0 +1,87 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "Goals" [ref=e20] [cursor=pointer]:
+        - /url: /goals
+        - img [ref=e21]
+        - text: Goals
+      - link "New Trade" [ref=e25] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e26]
+        - text: New Trade
+    - paragraph [ref=e29]: IDX Trading Journal v1.0
+  - main [ref=e30]:
+    - generic [ref=e286]:
+      - generic [ref=e287]:
+        - heading "Trade Log" [level=1] [ref=e288]
+        - link "+ Add Trade" [ref=e289] [cursor=pointer]:
+          - /url: /trades/new
+          - button "+ Add Trade" [ref=e290]
+      - generic [ref=e291]:
+        - generic [ref=e292]:
+          - textbox "Search ticker..." [ref=e295]
+          - generic [ref=e297]:
+            - generic [ref=e298]: From
+            - textbox "From" [ref=e299]
+          - generic [ref=e301]:
+            - generic [ref=e302]: To
+            - textbox "To" [ref=e303]
+          - generic [ref=e305]:
+            - generic [ref=e306]: Strategy
+            - combobox "Strategy" [ref=e307]:
+              - option "All" [selected]
+              - option "Breakout"
+              - option "Support/Resistance"
+              - option "Moving Average"
+              - option "Trend Following"
+              - option "Scalping"
+              - option "Swing Trade"
+          - button "Clear" [ref=e309] [cursor=pointer]
+        - table [ref=e311]:
+          - rowgroup [ref=e312]:
+            - row "Entry/Exit ▼ Ticker Status Lots Entry Exit Fees Net P/L Tags Actions" [ref=e313]:
+              - columnheader "Entry/Exit ▼" [ref=e314] [cursor=pointer]
+              - columnheader "Ticker" [ref=e315] [cursor=pointer]
+              - columnheader "Status" [ref=e316] [cursor=pointer]
+              - columnheader "Lots" [ref=e317] [cursor=pointer]
+              - columnheader "Entry" [ref=e318]
+              - columnheader "Exit" [ref=e319]
+              - columnheader "Fees" [ref=e320]
+              - columnheader "Net P/L" [ref=e321] [cursor=pointer]
+              - columnheader "Tags" [ref=e322]
+              - columnheader "Actions" [ref=e323]
+          - rowgroup [ref=e324]:
+            - row "10/04/2026 → 15/04/2026 BREN Closed 100 Rp 5.000 Rp 6.000 Rp 307.500 Rp 9.692.500" [ref=e325]:
+              - cell "10/04/2026 → 15/04/2026" [ref=e326]:
+                - text: 10/04/2026
+                - generic [ref=e327]: → 15/04/2026
+              - cell "BREN" [ref=e328]
+              - cell "Closed" [ref=e329]:
+                - generic [ref=e330]: Closed
+              - cell "100" [ref=e331]
+              - cell "Rp 5.000" [ref=e332]
+              - cell "Rp 6.000" [ref=e333]
+              - cell "Rp 307.500" [ref=e334]
+              - cell "Rp 9.692.500" [ref=e335]
+              - cell [ref=e336]
+              - cell [ref=e337]:
+                - generic [ref=e338]:
+                  - button "Edit" [ref=e339] [cursor=pointer]:
+                    - img [ref=e340]
+                  - button "Delete" [ref=e342] [cursor=pointer]:
+                    - img [ref=e343]

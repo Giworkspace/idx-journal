@@ -1,0 +1,103 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [active] [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "New Trade" [ref=e17] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e18]
+        - text: New Trade
+    - paragraph [ref=e21]: IDX Trading Journal v1.0
+  - main [ref=e22]:
+    - generic [ref=e756]:
+      - heading "Dashboard" [level=1] [ref=e757]
+      - generic [ref=e758]:
+        - generic [ref=e759]:
+          - generic [ref=e760]:
+            - img [ref=e762]
+            - generic [ref=e764]: Total Net P/L
+          - generic [ref=e766]: Rp 1.245.354,98
+        - generic [ref=e767]:
+          - generic [ref=e768]:
+            - img [ref=e770]
+            - generic [ref=e774]: Win Rate
+          - generic [ref=e776]: 72.7%
+        - generic [ref=e777]:
+          - generic [ref=e778]:
+            - img [ref=e780]
+            - generic [ref=e783]: Profit Factor
+          - generic [ref=e785]: "10.10"
+        - generic [ref=e786]:
+          - generic [ref=e787]:
+            - img [ref=e789]
+            - generic [ref=e790]: Total Trades
+          - generic [ref=e792]: "11"
+      - generic [ref=e793]:
+        - generic [ref=e795]:
+          - heading "Equity Curve" [level=3] [ref=e796]
+          - img [ref=e798]
+        - generic [ref=e800]:
+          - heading "Win Rate" [level=3] [ref=e801]
+          - generic [ref=e802]:
+            - img [ref=e803]
+            - generic:
+              - generic: 72.7%
+              - generic: Win Rate
+      - generic [ref=e805]:
+        - generic [ref=e806]:
+          - heading "Recent Trades" [level=3] [ref=e807]
+          - link "View All →" [ref=e808] [cursor=pointer]:
+            - /url: /trades
+        - table [ref=e810]:
+          - rowgroup [ref=e811]:
+            - row "Date Ticker Type Lots Net P/L" [ref=e812]:
+              - columnheader "Date" [ref=e813]
+              - columnheader "Ticker" [ref=e814]
+              - columnheader "Type" [ref=e815]
+              - columnheader "Lots" [ref=e816]
+              - columnheader "Net P/L" [ref=e817]
+          - rowgroup [ref=e818]:
+            - row "19 Apr 2026 BBCA Buy 5 Rp 123.787,5" [ref=e819]:
+              - cell "19 Apr 2026" [ref=e820]
+              - cell "BBCA" [ref=e821]
+              - cell "Buy" [ref=e822]:
+                - generic [ref=e823]: Buy
+              - cell "5" [ref=e824]
+              - cell "Rp 123.787,5" [ref=e825]
+            - row "15 Apr 2026 GOTO Buy 3 Rp 783,23" [ref=e826]:
+              - cell "15 Apr 2026" [ref=e827]
+              - cell "GOTO" [ref=e828]
+              - cell "Buy" [ref=e829]:
+                - generic [ref=e830]: Buy
+              - cell "3" [ref=e831]
+              - cell "Rp 783,23" [ref=e832]
+            - row "12 Apr 2026 ICBP Buy 2 -Rp 81.276,75" [ref=e833]:
+              - cell "12 Apr 2026" [ref=e834]
+              - cell "ICBP" [ref=e835]
+              - cell "Buy" [ref=e836]:
+                - generic [ref=e837]: Buy
+              - cell "2" [ref=e838]
+              - cell "-Rp 81.276,75" [ref=e839]
+            - row "09 Apr 2026 INDF Buy 8 Rp 423.819" [ref=e840]:
+              - cell "09 Apr 2026" [ref=e841]
+              - cell "INDF" [ref=e842]
+              - cell "Buy" [ref=e843]:
+                - generic [ref=e844]: Buy
+              - cell "8" [ref=e845]
+              - cell "Rp 423.819" [ref=e846]
+            - row "06 Apr 2026 ANTM Buy 1 Rp 14.378,63" [ref=e847]:
+              - cell "06 Apr 2026" [ref=e848]
+              - cell "ANTM" [ref=e849]
+              - cell "Buy" [ref=e850]:
+                - generic [ref=e851]: Buy
+              - cell "1" [ref=e852]
+              - cell "Rp 14.378,63" [ref=e853]

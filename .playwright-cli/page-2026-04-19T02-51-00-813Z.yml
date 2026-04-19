@@ -1,0 +1,56 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "IDXJournal" [level=1] [ref=e5]
+  - main [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - heading "Goals & Progress" [level=1] [ref=e10]
+        - button "⚙️ Edit Goals" [ref=e11] [cursor=pointer]
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - heading "🎯 Annual Progress 2026" [level=3] [ref=e15]
+          - generic [ref=e16]: 🔴 Behind
+        - generic [ref=e21]: 0.4% of annual target
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - paragraph [ref=e24]: Actual P/L
+            - paragraph [ref=e25]: Rp 443.052,23
+          - generic [ref=e26]:
+            - paragraph [ref=e27]: Target P/L
+            - paragraph [ref=e28]: Rp 100.000.000
+          - generic [ref=e29]:
+            - paragraph [ref=e30]: Progress
+            - paragraph [ref=e31]: 0.4%
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: Remaining
+            - paragraph [ref=e34]: Rp 99.556.947,78
+        - paragraph [ref=e36]: "Modal: Rp 100.000.000 → Target Akhir Tahun: Rp 200.000.000"
+      - generic [ref=e38]:
+        - heading "📊 Monthly Breakdown" [level=3] [ref=e39]
+        - img [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e45]: Target
+          - generic [ref=e48]: Actual
+        - paragraph [ref=e49]: Click a month to see weekly details
+  - navigation [ref=e50]:
+    - generic [ref=e51]:
+      - link "Dashboard" [ref=e52] [cursor=pointer]:
+        - /url: /
+        - img [ref=e53]
+        - generic [ref=e58]: Dashboard
+      - link "Trades" [ref=e59] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e60]
+        - generic [ref=e61]: Trades
+      - link "Calendar" [ref=e62] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e63]
+        - generic [ref=e65]: Calendar
+      - link "Goals" [ref=e66] [cursor=pointer]:
+        - /url: /goals
+        - img [ref=e67]
+        - generic [ref=e71]: Goals
+      - link "New" [ref=e72] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e73]
+        - generic [ref=e75]: New

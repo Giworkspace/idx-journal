@@ -1,0 +1,76 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [active] [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "Goals" [ref=e20] [cursor=pointer]:
+        - /url: /goals
+        - img [ref=e21]
+        - text: Goals
+      - link "New Trade" [ref=e25] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e26]
+        - text: New Trade
+    - paragraph [ref=e29]: IDX Trading Journal v1.0
+  - main [ref=e30]:
+    - generic [ref=e728]:
+      - generic [ref=e729]:
+        - heading "Trade Log" [level=1] [ref=e730]
+        - link "+ Add Trade" [ref=e731] [cursor=pointer]:
+          - /url: /trades/new
+          - button "+ Add Trade" [ref=e732]
+      - generic [ref=e733]:
+        - generic [ref=e734]:
+          - textbox "Search ticker..." [ref=e737]
+          - generic [ref=e739]:
+            - generic [ref=e740]: From
+            - textbox "From" [ref=e741]
+          - generic [ref=e743]:
+            - generic [ref=e744]: To
+            - textbox "To" [ref=e745]
+          - generic [ref=e747]:
+            - generic [ref=e748]: Status
+            - combobox "Status" [ref=e749]:
+              - option "All Status"
+              - option "Open"
+              - option "Closed" [selected]
+          - generic [ref=e751]:
+            - generic [ref=e752]: Strategy
+            - combobox "Strategy" [ref=e753]:
+              - option "All" [selected]
+              - option "Breakout"
+              - option "Support/Resistance"
+              - option "Moving Average"
+              - option "Trend Following"
+              - option "Scalping"
+              - option "Swing Trade"
+          - button "Clear" [ref=e755] [cursor=pointer]
+        - table [ref=e757]:
+          - rowgroup [ref=e758]:
+            - row "Entry/Exit ▼ Ticker Status Lots Entry Exit Fees Net P/L Tags Actions" [ref=e759]:
+              - columnheader "Entry/Exit ▼" [ref=e760] [cursor=pointer]
+              - columnheader "Ticker" [ref=e761] [cursor=pointer]
+              - columnheader "Status" [ref=e762] [cursor=pointer]
+              - columnheader "Lots" [ref=e763] [cursor=pointer]
+              - columnheader "Entry" [ref=e764]
+              - columnheader "Exit" [ref=e765]
+              - columnheader "Fees" [ref=e766]
+              - columnheader "Net P/L" [ref=e767] [cursor=pointer]
+              - columnheader "Tags" [ref=e768]
+              - columnheader "Actions" [ref=e769]
+          - rowgroup [ref=e770]:
+            - row "No trades found" [ref=e1213]:
+              - cell "No trades found" [ref=e1214]

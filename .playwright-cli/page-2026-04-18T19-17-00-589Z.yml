@@ -1,0 +1,30 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "New Trade" [ref=e17] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e18]
+        - text: New Trade
+    - paragraph [ref=e21]: IDX Trading Journal v1.0
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - img [ref=e26]
+      - heading "Welcome to IDX Journal" [level=1] [ref=e28]
+      - paragraph [ref=e29]: Start tracking your IDX trades and analyze your performance with detailed metrics and interactive charts.
+      - link "Add Your First Trade" [ref=e30] [cursor=pointer]:
+        - /url: /trades/new
+        - button "Add Your First Trade" [ref=e31]
+      - generic [ref=e32]:
+        - paragraph [ref=e33]: Or load sample data to explore
+        - button "Load Sample Data" [ref=e34] [cursor=pointer]

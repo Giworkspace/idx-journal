@@ -1,0 +1,100 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "Goals" [ref=e20] [cursor=pointer]:
+        - /url: /goals
+        - img [ref=e21]
+        - text: Goals
+      - link "New Trade" [ref=e25] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e26]
+        - text: New Trade
+    - paragraph [ref=e29]: IDX Trading Journal v1.0
+  - main [ref=e30]:
+    - generic [ref=e308]:
+      - heading "New Trade" [level=1] [ref=e309]
+      - generic [ref=e310]:
+        - generic [ref=e311]:
+          - heading "Trade Details" [level=2] [ref=e312]
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - generic [ref=e315]: Status
+              - combobox "Status" [ref=e316]:
+                - option "Open" [selected]
+                - option "Closed"
+            - generic [ref=e317]:
+              - generic [ref=e318]: Ticker
+              - textbox "Ticker" [ref=e319]:
+                - /placeholder: e.g. BBCA
+            - generic [ref=e320]:
+              - generic [ref=e321]: Entry Date
+              - textbox "Entry Date" [ref=e322]
+            - generic [ref=e323]:
+              - generic [ref=e324]: Lots
+              - spinbutton "Lots" [ref=e325]
+            - generic [ref=e326]:
+              - generic [ref=e327]: Entry Price (IDR)
+              - spinbutton "Entry Price (IDR)" [ref=e328]
+            - generic [ref=e329]:
+              - generic [ref=e330]: Sector
+              - combobox "Sector" [ref=e331]:
+                - option "Select sector..." [selected]
+                - option "Finance"
+                - option "Mining"
+                - option "Consumer Goods"
+                - option "Infrastructure"
+                - option "Trade & Services"
+                - option "Agriculture"
+                - option "Basic Industry"
+                - option "Miscellaneous"
+                - option "Property"
+                - option "Technology"
+        - generic [ref=e332]:
+          - generic [ref=e333]:
+            - heading "Psychology Log" [level=3] [ref=e334]
+            - paragraph [ref=e335]: How were you feeling during this trade?
+            - generic [ref=e337]:
+              - button "FOMO" [ref=e338] [cursor=pointer]
+              - button "Disciplined" [ref=e339] [cursor=pointer]
+              - button "Revenge Trade" [ref=e340] [cursor=pointer]
+              - button "Patient" [ref=e341] [cursor=pointer]
+              - button "Greedy" [ref=e342] [cursor=pointer]
+              - button "Confident" [ref=e343] [cursor=pointer]
+              - button "Fearful" [ref=e344] [cursor=pointer]
+              - button "Impulsive" [ref=e345] [cursor=pointer]
+          - generic [ref=e346]:
+            - heading "Strategy" [level=3] [ref=e347]
+            - generic [ref=e349]:
+              - button "Breakout" [ref=e350] [cursor=pointer]
+              - button "Support/Resistance" [ref=e351] [cursor=pointer]
+              - button "Moving Average" [ref=e352] [cursor=pointer]
+              - button "Trend Following" [ref=e353] [cursor=pointer]
+              - button "Scalping" [ref=e354] [cursor=pointer]
+              - button "Swing Trade" [ref=e355] [cursor=pointer]
+        - generic [ref=e356]:
+          - heading "Chart Screenshot" [level=3] [ref=e357]
+          - generic [ref=e360] [cursor=pointer]:
+            - img [ref=e361]
+            - generic [ref=e364]: Click or drag to upload chart screenshot
+            - generic [ref=e365]: PNG, JPG up to 5MB
+        - generic [ref=e366]:
+          - heading "Trade Notes" [level=3] [ref=e367]
+          - textbox "Add your notes about this trade..." [ref=e368]
+        - generic [ref=e369]:
+          - button "Cancel" [ref=e370] [cursor=pointer]
+          - button "Save Trade" [ref=e371] [cursor=pointer]

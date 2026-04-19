@@ -1,0 +1,58 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "Goals" [ref=e20] [cursor=pointer]:
+        - /url: /goals
+        - img [ref=e21]
+        - text: Goals
+      - link "New Trade" [ref=e25] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e26]
+        - text: New Trade
+    - paragraph [ref=e29]: IDX Trading Journal v1.0
+  - main [ref=e30]:
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - heading "Goals & Progress" [level=1] [ref=e163]
+        - button "⚙️ Edit Goals" [ref=e236] [cursor=pointer]
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - heading "🎯 Annual Progress 2026" [level=3] [ref=e168]
+          - generic [ref=e169]: 🔴 Behind
+        - generic [ref=e174]: 0.4% of annual target
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - paragraph [ref=e177]: Actual P/L
+            - paragraph [ref=e178]: Rp 443.052,23
+          - generic [ref=e179]:
+            - paragraph [ref=e180]: Target P/L
+            - paragraph [ref=e181]: Rp 100.000.000
+          - generic [ref=e182]:
+            - paragraph [ref=e183]: Progress
+            - paragraph [ref=e184]: 0.4%
+          - generic [ref=e185]:
+            - paragraph [ref=e186]: Remaining
+            - paragraph [ref=e187]: Rp 99.556.947,78
+        - paragraph [ref=e189]: "Modal: Rp 100.000.000 → Target Akhir Tahun: Rp 200.000.000"
+      - generic [ref=e191]:
+        - heading "📊 Monthly Breakdown" [level=3] [ref=e192]
+        - img [ref=e194]
+        - generic [ref=e195]:
+          - generic [ref=e198]: Target
+          - generic [ref=e201]: Actual
+        - paragraph [ref=e202]: Click a month to see weekly details

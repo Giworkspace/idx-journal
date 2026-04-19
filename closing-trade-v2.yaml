@@ -1,0 +1,123 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "Goals" [ref=e20] [cursor=pointer]:
+        - /url: /goals
+        - img [ref=e21]
+        - text: Goals
+      - link "New Trade" [ref=e25] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e26]
+        - text: New Trade
+    - paragraph [ref=e29]: IDX Trading Journal v1.0
+  - main [ref=e30]:
+    - generic [ref=e496]:
+      - heading "Edit Trade" [level=1] [ref=e497]
+      - generic [ref=e498]:
+        - generic [ref=e499]:
+          - heading "Trade Details" [level=2] [ref=e500]
+          - generic [ref=e501]:
+            - generic [ref=e502]:
+              - generic [ref=e503]: Status
+              - combobox "Status" [ref=e504]:
+                - option "Open"
+                - option "Closed" [selected]
+            - generic [ref=e505]:
+              - generic [ref=e506]: Ticker
+              - textbox "Ticker" [ref=e507]:
+                - /placeholder: e.g. BBCA
+                - text: GOTO
+            - generic [ref=e508]:
+              - generic [ref=e509]: Entry Date
+              - textbox "Entry Date" [ref=e510]: 2026-04-16
+            - generic [ref=e511]:
+              - generic [ref=e512]: Lots
+              - spinbutton "Lots" [ref=e513]: "5000"
+            - generic [ref=e514]:
+              - generic [ref=e515]: Entry Price (IDR)
+              - spinbutton "Entry Price (IDR)" [ref=e516]: "70"
+            - generic [ref=e577]:
+              - generic [ref=e578]: Exit Date
+              - textbox "Exit Date" [ref=e579]: 2026-04-16
+            - generic [ref=e580]:
+              - generic [ref=e581]: Exit Price (IDR)
+              - spinbutton "Exit Price (IDR)" [active] [ref=e582]: "72"
+            - generic [ref=e517]:
+              - generic [ref=e518]: Sector
+              - combobox "Sector" [ref=e519]:
+                - option "Select sector..."
+                - option "Finance"
+                - option "Mining"
+                - option "Consumer Goods"
+                - option "Infrastructure"
+                - option "Trade & Services"
+                - option "Agriculture"
+                - option "Basic Industry"
+                - option "Miscellaneous"
+                - option "Property"
+                - option "Technology" [selected]
+        - generic [ref=e521]:
+          - generic [ref=e522]: Fee Breakdown
+          - generic [ref=e523]:
+            - generic [ref=e524]:
+              - generic [ref=e525]: Buy Fee
+              - generic [ref=e526]: Rp 57.750
+            - generic [ref=e527]:
+              - generic [ref=e528]: Sell Fee
+              - generic [ref=e529]: Rp 135.000
+            - generic [ref=e530]:
+              - generic [ref=e531]: Total Fees
+              - generic [ref=e532]: Rp 192.750
+            - generic [ref=e533]:
+              - generic [ref=e534]: Net P/L
+              - generic [ref=e535]: Rp 807.250
+          - paragraph [ref=e536]: Fees auto-calculated based on IDX standard rates
+        - generic [ref=e537]:
+          - generic [ref=e538]:
+            - heading "Psychology Log" [level=3] [ref=e539]
+            - paragraph [ref=e540]: How were you feeling during this trade?
+            - generic [ref=e542]:
+              - button "FOMO" [ref=e543] [cursor=pointer]
+              - button "Disciplined" [ref=e544] [cursor=pointer]
+              - button "Revenge Trade" [ref=e545] [cursor=pointer]
+              - button "Patient" [ref=e546] [cursor=pointer]
+              - button "Greedy" [ref=e547] [cursor=pointer]
+              - button "Confident" [ref=e548] [cursor=pointer]
+              - button "Fearful" [ref=e549] [cursor=pointer]
+              - button "Impulsive" [ref=e550] [cursor=pointer]
+          - generic [ref=e551]:
+            - heading "Strategy" [level=3] [ref=e552]
+            - generic [ref=e554]:
+              - button "Breakout" [ref=e555] [cursor=pointer]
+              - button "Support/Resistance" [ref=e556] [cursor=pointer]
+              - button "Moving Average" [ref=e557] [cursor=pointer]
+              - button "Trend Following" [ref=e558] [cursor=pointer]
+              - button "Scalping" [ref=e559] [cursor=pointer]
+              - button "Swing Trade" [ref=e560] [cursor=pointer]
+        - generic [ref=e561]:
+          - heading "Chart Screenshot" [level=3] [ref=e562]
+          - generic [ref=e565] [cursor=pointer]:
+            - img [ref=e566]
+            - generic [ref=e569]: Click or drag to upload chart screenshot
+            - generic [ref=e570]: PNG, JPG up to 5MB
+        - generic [ref=e571]:
+          - heading "Trade Notes" [level=3] [ref=e572]
+          - textbox "Add your notes about this trade..." [ref=e573]: Sample trade for GOTO
+        - generic [ref=e574]:
+          - button "Cancel" [ref=e575] [cursor=pointer]
+          - button "Update Trade" [ref=e576] [cursor=pointer]

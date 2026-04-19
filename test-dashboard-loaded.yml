@@ -1,0 +1,103 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "New Trade" [ref=e17] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e18]
+        - text: New Trade
+    - paragraph [ref=e21]: IDX Trading Journal v1.0
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - heading "Dashboard" [level=1] [ref=e35]
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - img [ref=e40]
+            - generic [ref=e42]: Total Net P/L
+          - generic [ref=e44]: Rp 1.121.567,48
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - img [ref=e48]
+            - generic [ref=e52]: Win Rate
+          - generic [ref=e54]: 70.0%
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - img [ref=e58]
+            - generic [ref=e61]: Profit Factor
+          - generic [ref=e63]: "9.20"
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - img [ref=e67]
+            - generic [ref=e68]: Total Trades
+          - generic [ref=e70]: "10"
+      - generic [ref=e71]:
+        - generic [ref=e73]:
+          - heading "Equity Curve" [level=3] [ref=e74]
+          - img [ref=e76]
+        - generic [ref=e78]:
+          - heading "Win Rate" [level=3] [ref=e79]
+          - generic [ref=e80]:
+            - img [ref=e81]
+            - generic:
+              - generic: 70%
+              - generic: Win Rate
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - heading "Recent Trades" [level=3] [ref=e85]
+          - link "View All →" [ref=e86] [cursor=pointer]:
+            - /url: /trades
+        - table [ref=e88]:
+          - rowgroup [ref=e89]:
+            - row "Date Ticker Type Lots Net P/L" [ref=e90]:
+              - columnheader "Date" [ref=e91]
+              - columnheader "Ticker" [ref=e92]
+              - columnheader "Type" [ref=e93]
+              - columnheader "Lots" [ref=e94]
+              - columnheader "Net P/L" [ref=e95]
+          - rowgroup [ref=e96]:
+            - row "15 Apr 2026 GOTO Buy 3 Rp 783,23" [ref=e97]:
+              - cell "15 Apr 2026" [ref=e98]
+              - cell "GOTO" [ref=e99]
+              - cell "Buy" [ref=e100]:
+                - generic [ref=e101]: Buy
+              - cell "3" [ref=e102]
+              - cell "Rp 783,23" [ref=e103]
+            - row "12 Apr 2026 ICBP Buy 2 -Rp 81.276,75" [ref=e104]:
+              - cell "12 Apr 2026" [ref=e105]
+              - cell "ICBP" [ref=e106]
+              - cell "Buy" [ref=e107]:
+                - generic [ref=e108]: Buy
+              - cell "2" [ref=e109]
+              - cell "-Rp 81.276,75" [ref=e110]
+            - row "09 Apr 2026 INDF Buy 8 Rp 423.819" [ref=e111]:
+              - cell "09 Apr 2026" [ref=e112]
+              - cell "INDF" [ref=e113]
+              - cell "Buy" [ref=e114]:
+                - generic [ref=e115]: Buy
+              - cell "8" [ref=e116]
+              - cell "Rp 423.819" [ref=e117]
+            - row "06 Apr 2026 ANTM Buy 1 Rp 14.378,63" [ref=e118]:
+              - cell "06 Apr 2026" [ref=e119]
+              - cell "ANTM" [ref=e120]
+              - cell "Buy" [ref=e121]:
+                - generic [ref=e122]: Buy
+              - cell "1" [ref=e123]
+              - cell "Rp 14.378,63" [ref=e124]
+            - row "03 Apr 2026 BMRI Buy 1 -Rp 18.084,13" [ref=e125]:
+              - cell "03 Apr 2026" [ref=e126]
+              - cell "BMRI" [ref=e127]
+              - cell "Buy" [ref=e128]:
+                - generic [ref=e129]: Buy
+              - cell "1" [ref=e130]
+              - cell "-Rp 18.084,13" [ref=e131]

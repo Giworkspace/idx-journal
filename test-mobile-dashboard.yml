@@ -1,0 +1,103 @@
+- generic [ref=e3]:
+  - banner [ref=e854]:
+    - heading "IDXJournal" [level=1] [ref=e855]
+  - main [ref=e22]:
+    - generic [ref=e756]:
+      - heading "Dashboard" [level=1] [ref=e757]
+      - generic [ref=e758]:
+        - generic [ref=e759]:
+          - generic [ref=e760]:
+            - img [ref=e762]
+            - generic [ref=e764]: Total Net P/L
+          - generic [ref=e766]: Rp 1.245.354,98
+        - generic [ref=e767]:
+          - generic [ref=e768]:
+            - img [ref=e770]
+            - generic [ref=e774]: Win Rate
+          - generic [ref=e776]: 72.7%
+        - generic [ref=e777]:
+          - generic [ref=e778]:
+            - img [ref=e780]
+            - generic [ref=e783]: Profit Factor
+          - generic [ref=e785]: "10.10"
+        - generic [ref=e786]:
+          - generic [ref=e787]:
+            - img [ref=e789]
+            - generic [ref=e790]: Total Trades
+          - generic [ref=e792]: "11"
+      - generic [ref=e793]:
+        - generic [ref=e795]:
+          - heading "Equity Curve" [level=3] [ref=e796]
+          - img [ref=e798]
+        - generic [ref=e800]:
+          - heading "Win Rate" [level=3] [ref=e801]
+          - generic [ref=e802]:
+            - img [ref=e803]
+            - generic:
+              - generic: 72.7%
+              - generic: Win Rate
+      - generic [ref=e805]:
+        - generic [ref=e806]:
+          - heading "Recent Trades" [level=3] [ref=e807]
+          - link "View All →" [ref=e808] [cursor=pointer]:
+            - /url: /trades
+        - generic [ref=e856]:
+          - generic [ref=e857]:
+            - generic [ref=e858]:
+              - generic [ref=e859]:
+                - generic [ref=e860]: BBCA
+                - generic [ref=e861]: Buy
+              - generic [ref=e862]: 19 Apr 2026
+            - generic [ref=e863]:
+              - generic [ref=e864]: "Lots: 5"
+              - generic [ref=e865]: Rp 123.787,5
+          - generic [ref=e866]:
+            - generic [ref=e867]:
+              - generic [ref=e868]:
+                - generic [ref=e869]: GOTO
+                - generic [ref=e870]: Buy
+              - generic [ref=e871]: 15 Apr 2026
+            - generic [ref=e872]:
+              - generic [ref=e873]: "Lots: 3"
+              - generic [ref=e874]: Rp 783,23
+          - generic [ref=e875]:
+            - generic [ref=e876]:
+              - generic [ref=e877]:
+                - generic [ref=e878]: ICBP
+                - generic [ref=e879]: Buy
+              - generic [ref=e880]: 12 Apr 2026
+            - generic [ref=e881]:
+              - generic [ref=e882]: "Lots: 2"
+              - generic [ref=e883]: "-Rp 81.276,75"
+          - generic [ref=e884]:
+            - generic [ref=e885]:
+              - generic [ref=e886]:
+                - generic [ref=e887]: INDF
+                - generic [ref=e888]: Buy
+              - generic [ref=e889]: 09 Apr 2026
+            - generic [ref=e890]:
+              - generic [ref=e891]: "Lots: 8"
+              - generic [ref=e892]: Rp 423.819
+          - generic [ref=e893]:
+            - generic [ref=e894]:
+              - generic [ref=e895]:
+                - generic [ref=e896]: ANTM
+                - generic [ref=e897]: Buy
+              - generic [ref=e898]: 06 Apr 2026
+            - generic [ref=e899]:
+              - generic [ref=e900]: "Lots: 1"
+              - generic [ref=e901]: Rp 14.378,63
+  - navigation [ref=e902]:
+    - generic [ref=e903]:
+      - link "Dashboard" [ref=e904] [cursor=pointer]:
+        - /url: /
+        - img [ref=e905]
+        - generic [ref=e910]: Dashboard
+      - link "Trade Log" [ref=e911] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e912]
+        - generic [ref=e913]: Trade Log
+      - link "New Trade" [ref=e914] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e915]
+        - generic [ref=e917]: New Trade

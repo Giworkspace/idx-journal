@@ -1,0 +1,27 @@
+
+> idx-trading-journal@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 242 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+10:46:04 AM [vite] hmr update /src/components/goals/WeeklyTargetCard.jsx, /src/index.css
+11:22:30 AM [vite] hmr update /src/index.css, /src/pages/Goals.jsx, /src/pages/Dashboard.jsx, /src/components/goals/GoalSettings.jsx, /src/components/trades/TradeTable.jsx, /src/components/trades/TradeForm.jsx, /src/pages/TradeLog.jsx, /src/pages/TradeEntry.jsx, /src/pages/Calendar.jsx, /src/components/trades/FeeCalculator.jsx, /src/components/calendar/CalendarGrid.jsx, /src/components/calendar/CalendarDayCell.jsx, /src/components/trades/TradeFilters.jsx
+11:22:35 AM [vite] hmr update /src/index.css, /src/pages/Dashboard.jsx, /src/pages/TradeLog.jsx, /src/pages/TradeEntry.jsx, /src/pages/Calendar.jsx, /src/pages/Goals.jsx, /src/components/trades/TradeForm.jsx, /src/components/trades/FeeCalculator.jsx
+11:22:51 AM [vite] hmr update /src/index.css, /src/pages/Goals.jsx, /src/pages/Dashboard.jsx, /src/components/goals/GoalSettings.jsx
+11:23:23 AM [vite] hmr update /src/components/trades/TradeForm.jsx, /src/index.css
+11:23:29 AM [vite] hmr update /src/components/trades/FeeCalculator.jsx, /src/index.css
+11:23:46 AM [vite] hmr update /src/components/trades/TradeTable.jsx, /src/index.css
+11:29:36 AM [vite] hmr update /src/index.css, /src/components/calendar/CalendarGrid.jsx, /src/components/calendar/CalendarDayCell.jsx
+11:30:06 AM [vite] hmr update /src/components/calendar/TradeDetailModal.jsx, /src/index.css
+11:38:44 AM [vite] hmr update /src/index.css, /src/components/calendar/CalendarGrid.jsx, /src/components/calendar/CalendarDayCell.jsx
+11:38:52 AM [vite] hmr update /src/components/calendar/CalendarGrid.jsx, /src/index.css
+11:39:39 AM [vite] hmr update /src/components/calendar/CalendarDayCell.jsx, /src/index.css
+11:39:50 AM [vite] hmr update /src/components/calendar/TradeDetailModal.jsx, /src/index.css
+12:13:56 PM [vite] hmr update /src/components/trades/TradeFilters.jsx, /src/index.css
+12:14:13 PM [vite] hmr update /src/components/trades/TradeTable.jsx, /src/index.css
+12:23:28 PM [vite] hmr update /src/components/dashboard/RecentTrades.jsx, /src/index.css
+12:29:45 PM [vite] hmr update /src/pages/Calendar.jsx, /src/index.css
+12:29:55 PM [vite] hmr update /src/components/calendar/CalendarGrid.jsx, /src/index.css

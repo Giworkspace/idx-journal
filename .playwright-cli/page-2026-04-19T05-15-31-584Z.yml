@@ -1,0 +1,117 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "Goals" [ref=e20] [cursor=pointer]:
+        - /url: /goals
+        - img [ref=e21]
+        - text: Goals
+      - link "New Trade" [ref=e25] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e26]
+        - text: New Trade
+    - paragraph [ref=e29]: IDX Trading Journal v1.0
+  - main [ref=e30]:
+    - generic [ref=e641]:
+      - heading "Edit Trade" [level=1] [ref=e642]
+      - generic [ref=e643]:
+        - generic [ref=e644]:
+          - heading "Trade Details" [level=2] [ref=e645]
+          - generic [ref=e646]:
+            - generic [ref=e647]:
+              - generic [ref=e648]: Status
+              - combobox "Status" [ref=e649]:
+                - option "Open" [selected]
+                - option "Closed"
+            - generic [ref=e650]:
+              - generic [ref=e651]: Ticker
+              - textbox "Ticker" [ref=e652]:
+                - /placeholder: e.g. BBCA
+                - text: GOTO
+            - generic [ref=e653]:
+              - generic [ref=e654]: Entry Date
+              - textbox "Entry Date" [ref=e655]: 2026-04-16
+            - generic [ref=e656]:
+              - generic [ref=e657]: Lots
+              - spinbutton "Lots" [ref=e658]: "3"
+            - generic [ref=e659]:
+              - generic [ref=e660]: Entry Price (IDR)
+              - spinbutton "Entry Price (IDR)" [ref=e661]: "70"
+            - generic [ref=e662]:
+              - generic [ref=e663]: Sector
+              - combobox "Sector" [ref=e664]:
+                - option "Select sector..."
+                - option "Finance"
+                - option "Mining"
+                - option "Consumer Goods"
+                - option "Infrastructure"
+                - option "Trade & Services"
+                - option "Agriculture"
+                - option "Basic Industry"
+                - option "Miscellaneous"
+                - option "Property"
+                - option "Technology" [selected]
+        - generic [ref=e666]:
+          - generic [ref=e667]: Fee Breakdown
+          - generic [ref=e668]:
+            - generic [ref=e669]:
+              - generic [ref=e670]: Buy Fee
+              - generic [ref=e671]: Rp 34,65
+            - generic [ref=e672]:
+              - generic [ref=e673]: Sell Fee
+              - generic [ref=e674]: "-"
+            - generic [ref=e675]:
+              - generic [ref=e676]: Total Fees
+              - generic [ref=e677]: Rp 34,65
+            - generic [ref=e678]:
+              - generic [ref=e679]: Net P/L
+              - generic [ref=e680]: Floating
+          - paragraph [ref=e681]: Fees auto-calculated based on IDX standard rates
+        - generic [ref=e682]:
+          - generic [ref=e683]:
+            - heading "Psychology Log" [level=3] [ref=e684]
+            - paragraph [ref=e685]: How were you feeling during this trade?
+            - generic [ref=e687]:
+              - button "FOMO" [ref=e688] [cursor=pointer]
+              - button "Disciplined" [ref=e689] [cursor=pointer]
+              - button "Revenge Trade" [ref=e690] [cursor=pointer]
+              - button "Patient" [ref=e691] [cursor=pointer]
+              - button "Greedy" [ref=e692] [cursor=pointer]
+              - button "Confident" [ref=e693] [cursor=pointer]
+              - button "Fearful" [ref=e694] [cursor=pointer]
+              - button "Impulsive" [ref=e695] [cursor=pointer]
+          - generic [ref=e696]:
+            - heading "Strategy" [level=3] [ref=e697]
+            - generic [ref=e699]:
+              - button "Breakout" [ref=e700] [cursor=pointer]
+              - button "Support/Resistance" [ref=e701] [cursor=pointer]
+              - button "Moving Average" [ref=e702] [cursor=pointer]
+              - button "Trend Following" [ref=e703] [cursor=pointer]
+              - button "Scalping" [ref=e704] [cursor=pointer]
+              - button "Swing Trade" [ref=e705] [cursor=pointer]
+        - generic [ref=e706]:
+          - heading "Chart Screenshot" [level=3] [ref=e707]
+          - generic [ref=e710] [cursor=pointer]:
+            - img [ref=e711]
+            - generic [ref=e714]: Click or drag to upload chart screenshot
+            - generic [ref=e715]: PNG, JPG up to 5MB
+        - generic [ref=e716]:
+          - heading "Trade Notes" [level=3] [ref=e717]
+          - textbox "Add your notes about this trade..." [ref=e718]: Sample trade for GOTO
+        - generic [ref=e719]:
+          - button "Cancel" [ref=e720] [cursor=pointer]
+          - button "Update Trade" [ref=e721] [cursor=pointer]

@@ -1,0 +1,111 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "IDXJournal" [level=1] [ref=e7]
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Trade Log" [ref=e15] [cursor=pointer]:
+        - /url: /trades
+        - img [ref=e16]
+        - text: Trade Log
+      - link "Calendar" [ref=e17] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e18]
+        - text: Calendar
+      - link "Goals" [ref=e20] [cursor=pointer]:
+        - /url: /goals
+        - img [ref=e21]
+        - text: Goals
+      - link "New Trade" [ref=e25] [cursor=pointer]:
+        - /url: /trades/new
+        - img [ref=e26]
+        - text: New Trade
+    - paragraph [ref=e29]: IDX Trading Journal v1.0
+  - main [ref=e30]:
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - heading "Goals & Progress" [level=1] [ref=e45]
+        - button "✕ Close Settings" [ref=e46] [cursor=pointer]
+      - generic [ref=e48]:
+        - heading "⚙️ Goal Settings" [level=3] [ref=e49]
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - generic [ref=e53]: Modal Awal (Starting Capital)
+              - spinbutton "Modal Awal (Starting Capital)" [ref=e54]: "10000000"
+            - generic [ref=e55]: Rp 10.000.000
+          - generic [ref=e56]:
+            - generic [ref=e57]: Target Return Tahunan (%)
+            - spinbutton "Target Return Tahunan (%)" [active] [ref=e58]: "100"
+          - generic [ref=e59]:
+            - generic [ref=e60]: Active Year
+            - combobox "Active Year" [ref=e61]:
+              - option "2025"
+              - option "2026" [selected]
+              - option "2027"
+        - generic [ref=e62]:
+          - heading "📊 Target Breakdown" [level=4] [ref=e63]
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - paragraph [ref=e66]: Monthly Target
+              - paragraph [ref=e67]: 5.95%
+            - generic [ref=e68]:
+              - paragraph [ref=e69]: Weekly Target
+              - paragraph [ref=e70]: 1.34%
+            - generic [ref=e71]:
+              - paragraph [ref=e72]: Year-end Capital
+              - paragraph [ref=e73]: Rp 20.000.000
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: Year-end Profit
+              - paragraph [ref=e76]: Rp 10.000.000
+        - button "💾 Simpan Target" [ref=e78] [cursor=pointer]
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - heading "📌 This Week's Target" [level=3] [ref=e82]
+          - generic [ref=e83]: W2 · 13-19 Apr
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e86]: 🎯 Target
+            - generic [ref=e87]: +1.34%
+            - generic [ref=e88]: Rp 163.891,12
+          - generic [ref=e89]:
+            - generic [ref=e90]: 📊 Actual
+            - generic [ref=e91]: 0.00%
+            - generic [ref=e92]: Rp 0
+          - generic [ref=e93]:
+            - generic [ref=e94]: 🔴 Progress
+            - generic [ref=e95]: 0.0%
+            - generic [ref=e96]: of target
+        - generic [ref=e99]:
+          - generic [ref=e100]: 🔄 0 trades this week
+          - generic [ref=e101]: 🔴 Behind
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - heading "🎯 Annual Progress 2026" [level=3] [ref=e105]
+          - generic [ref=e106]: 🔴 Behind
+        - generic [ref=e110]: 0.0% of annual target
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - paragraph [ref=e113]: Actual P/L
+            - paragraph [ref=e114]: Rp 0
+          - generic [ref=e115]:
+            - paragraph [ref=e116]: Target P/L
+            - paragraph [ref=e117]: Rp 10.000.000
+          - generic [ref=e118]:
+            - paragraph [ref=e119]: Progress
+            - paragraph [ref=e120]: 0.0%
+          - generic [ref=e121]:
+            - paragraph [ref=e122]: Remaining
+            - paragraph [ref=e123]: Rp 10.000.000
+        - paragraph [ref=e125]: "Modal: Rp 10.000.000 → Target Akhir Tahun: Rp 20.000.000"
+      - generic [ref=e127]:
+        - heading "📊 Monthly Breakdown" [level=3] [ref=e128]
+        - img [ref=e130]
+        - generic [ref=e131]:
+          - generic [ref=e134]: Target
+          - generic [ref=e137]: Actual
+        - paragraph [ref=e138]: Click a month to see weekly details
